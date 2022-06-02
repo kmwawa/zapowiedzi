@@ -1,0 +1,4236 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<meta charser="UTF-8">
+<body style="width: 10700px;" >
+<input type="text" placeholder="Szukaj przystanku" style="width: 200px;" id="szukaj">
+<we style="margin-left: 5440px; font-family: arial;"><s>Przypominamy o obowiązku zasłaniania nosa i ust w pojazdach transportu publicznego oraz zachowywaniu bezpiecznego odstępu od innych osób <l1 style="margin-left: 150px;"></l1>Przypominamy o obowiązku zasłaniania nosa i ust maseczką oraz zachowywaniu bezpiecznego odstępu od innych osób <l2 style="margin-left: 220px;"></l2>Przypominamy o obowiązku zasłaniania nosa i ust w pojazdach transportu publicznego oraz zachowywaniu bezpiecznego odstępu od innych osób</s> <l3 style="margin-left: 450px; "></l3>Uwaga! Pierwsze i drugi drzwi wagonu czasowo nieczynne związku z rozkładaniem rampy dla wózka inwalidzkiego </we>
+
+
+
+<table style="margin-top: 10px; margin-left: 10px; border-collapse: collapse; font-family: arial; font-size: 14.5px;"><tr><td style="border: solid 1px black; width: 300px; text-align: center; color: black;">Przystanek</td>
+<!--1--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: red; color: white;">Zjazd do zajezdni Wola - <br>ostatni przystanek na trasie linii: (nazwa)</td>
+<!--2--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #00D404; color: white;">Zjazd do zajezdni Praga - <br>ostatni przystanek na trasie linii: (nazwa)</td>
+<!--3--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #001e96ff; color: white;">Zjazd do zajezdni Mokotów - <br>ostatni przystanek na trasie linii: (nazwa)</td>
+<!--4--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #FF6200; color: white;">Zjazd do zajezdni Żoliborz - <br>ostatni przystanek na trasie linii: (nazwa)</td>
+<!--5--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #A6008A; color: white;">Zjazd do zajezdni Woronicza - <br>ostatni przystanek na trasie linii: (nazwa)</td>
+<!--6--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #00EAFF;">Zjazd do zajezdni Kleszczowa - <br>ostatni przystanek na trasie linii: (nazwa)</td>
+<!--7--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #ffd500ff;">Zjazd do zajezdni Ostrobramska - <br>ostatni przystanek na trasie linii: (nazwa)</td>
+<!--8--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #216521ff; color: white;">Zjazd do zajezdni Stalowa - <br>ostatni przystanek na trasie linii: (nazwa)</td>
+<!--9--><td style="border: solid 1px black; width: 210px; text-align: center; background-color: #d0c241ff;">Następny Przystanek + nazwa + Zjazd do zajezdni Wola</td>
+<!--10--><td style="border: solid 1px black; width: 190px; text-align: center; background-color: #daeb26ff;">Następny Przystanek + <br>nazwa + na żądanie + <br>Zjazd do zajezdni Wola</td>
+<!--11--><td style="border: solid 1px black; width: 210px; text-align: center; background-color: #aed938ff;">Następny Przystanek + nazwa + Zjazd do zajezdni Praga</td>
+<!--12--><td style="border: solid 1px black; width: 190px; text-align: center; background-color: #c4ff12ff;">Następny Przystanek + <br>nazwa + na żądanie + <br>Zjazd do zajezdni Praga</td>
+<!--13--><td style="border: solid 1px black; width: 210px; text-align: center; background-color: #ff4112ff; color: white;">Następny Przystanek + nazwa + Zjazd do zajezdni Mokotów</td>
+<!--14--><td style="border: solid 1px black; width: 190px; text-align: center; background-color: #3d8600ff; color: white;">Następny Przystanek + <br>nazwa + na żądanie + <br>Zjazd do zajezdni Mokotów</td>
+<!--15--><td style="border: solid 1px black; width: 210px; text-align: center; background-color: #004007ff; color: white;">Następny Przystanek + nazwa + Zjazd do zajezdni Żoliborz</td>
+<!--16--><td style="border: solid 1px black; width: 190px; text-align: center; background-color: #9affd6ff;">Następny Przystanek + <br>nazwa + na żądanie + <br>Zjazd do zajezdni Żoliborz</td>
+<!--17--><td style="border: solid 1px black; width: 210px; text-align: center; background-color: #00c575ff; color: white;">Następny Przystanek + nazwa + Zjazd do zajezdni Woronicza</td>
+<!--18--><td style="border: solid 1px black; width: 190px; text-align: center; background-color: #00844eff; color: white;">Następny Przystanek + <br>nazwa + na żądanie + <br>Zjazd do zajezdni Woronicza</td>
+<!--19--><td style="border: solid 1px black; width: 210px; text-align: center; background-color: #00edf1ff; ">Następny Przystanek + nazwa + Zjazd do zajezdni Kleszczowa</td>
+<!--20--><td style="border: solid 1px black; width: 200px; text-align: center; background-color: #00708cff; color: white;">Następny Przystanek + <br>nazwa + na żądanie + <br>Zjazd do zajezdni Kleszczowa</td>
+<!--21--><td style="border: solid 1px black; width: 210px; text-align: center; background-color: #1946ffff; color: white;">Następny Przystanek + nazwa + Zjazd do zajezdni Ostrobramska</td>
+<!--22--><td style="border: solid 1px black; width: 210px; text-align: center; background-color: #213692ff; color: white;">Następny Przystanek + <br>nazwa + na żądanie + <br>Zjazd do zajezdni Ostrobramska</td>
+<!--23--><td style="border: solid 1px black; width: 210px; text-align: center; background-color: #9548ffff; color: white;">Następny Przystanek + nazwa + Zjazd do zajezdni Stalowa</td>
+<!--24--><td style="border: solid 1px black; width: 190px; text-align: center; background-color: #8a00deff; color: white;">Następny Przystanek + <br>nazwa + na żądanie + <br>Zjazd do zajezdni Stalowa</td>
+<p style="text-decoration: line-through">
+<!--25--><td style="border: solid 1px black; width: 170px; text-align: center; background-color: #590090ff; color: white; text-decoration: line-through">Następny Przystanek + nazwa + Bezpieczeństwo</td>
+<!--26--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #f677ffff; text-decoration: line-through">Następny Przystanek + nazwa + na żądanie + Bezpieczeństwo</td>
+<!--27--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #ef0cffff; color: white; text-decoration: line-through">Przystanek + nazwa + Bezpieczeństwo</td>
+<!--28--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #a700b3ff; color: white; text-decoration: line-through">Przystanek + nazwa + na żądanie + Bezpieczeństwo</td>
+<!--29--><td style="border: solid 1px black; width: 140px; text-align: center; background-color: #961d81ff; color: white; text-decoration: line-through">Przystanek (nazwa) + Bezpieczeństwo</td>
+<!--30--><td style="border: solid 1px black; width: 140px; text-align: center; background-color: #541048ff; color: white; text-decoration: line-through">Przystanek (nazwa) + na żądanie + Bezpieczeństwo</td>
+<!--31--><td style="border: solid 1px black; width: 180px; text-align: center; background-color: #e20078ff; color: white; text-decoration: line-through">Następny Przystanek + nazwa + <br>Bezpieczeństwo maseczka</td>
+<!--32--><td style="border: solid 1px black; width: 180px; text-align: center; background-color: #9a0052ff; color: white; text-decoration: line-through">Następny Przystanek + nazwa + na żądanie + Bezpieczeństwo maseczka</td>
+<!--33--><td style="border: solid 1px black; width: 180px; text-align: center; background-color: #670037ff; color: white; text-decoration: line-through">Przystanek + nazwa + Bezpieczeństwo maseczka</td>
+<!--34--><td style="border: solid 1px black; width: 180px; text-align: center; background-color: #ff084aff; color: white; text-decoration: line-through">Przystanek + nazwa + <br>na żądanie + <br>Bezpieczeństwo maseczka</td>
+<!--35--><td style="border: solid 1px black; width: 180px; text-align: center; background-color: #c70035ff; color: white; text-decoration: line-through">Przystanek (nazwa) + Bezpieczeństwo maseczka</td>
+<!--36--><td style="border: solid 1px black; width: 180px; text-align: center; background-color: #800022ff; color: white; text-decoration: line-through">Przystanek (nazwa) + <br>na żądanie + <br>Bezpieczeństwo maseczka</td>
+
+
+
+<!--37--><td style="border: solid 1px black; width: 170px; text-align: center; background-color: #ff2d34ff; color: white; text-decoration: line-through">Następny Przystanek + nazwa + Bezpieczeństwo [PL+EN]</td>
+<!--38--><td style="border: solid 1px black; width: 170px; text-align: center; background-color: #f90008ff; color: white; text-decoration: line-through">Następny Przystanek + nazwa + na żądanie + Bezpieczeństwo [PL+EN]</td>
+<!--39--><td style="border: solid 1px black; width: 170px; text-align: center; background-color: #c50006ff; color: white; text-decoration: line-through">Przystanek + nazwa + Bezpieczeństwo [PL+EN]</td>
+<!--40--><td style="border: solid 1px black; width: 170px; text-align: center; background-color: #8c0004ff; color: white; text-decoration: line-through">Przystanek + nazwa + <br>na żądanie + Bezpieczeństwo [PL+EN]</td>
+<!--41--><td style="border: solid 1px black; width: 170px; text-align: center; background-color: #5a0003ff; color: white; text-decoration: line-through">Przystanek (nazwa) + Bezpieczeństwo [PL+EN]</td>
+<!--42--><td style="border: solid 1px black; width: 170px; text-align: center; background-color: #9e2800ff; color: white; text-decoration: line-through">Przystanek (nazwa) + <br>na żądanie + Bezpieczeństwo [PL+EN]</td>
+<!--43--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #ff954aff; text-decoration: line-through">Następny Przystanek + nazwa + <br>Bezpieczeństwo [EN]</td>
+<!--44--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #d85900ff; color: white; text-decoration: line-through">Następny Przystanek + nazwa + na żądanie + Bezpieczeństwo [EN]</td>
+<!--45--><td style="border: solid 1px black; width: 145px; text-align: center; background-color: #a04200ff; color: white; text-decoration: line-through">Przystanek (nazwa) + Bezpieczeństwo [EN]</td>
+<!--46--><td style="border: solid 1px black; width: 145px; text-align: center; background-color: #6d2d00ff; color: white; text-decoration: line-through">Przystanek (nazwa) + na żądanie + <br>Bezpieczeństwo [EN]</td>
+</p>
+
+
+<!--47--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #ffbd61ff;">Przystanek + nazwa + Platforma dla wózka inwalidzkiego</td>
+<!--48--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #ffa729ff;">Przystanek (nazwa) + Platforma dla wózka inwalidzkiego</td>
+
+
+<!--49--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #c77600ff; color: white;">Następny Przystanek + nazwa + <br>wysiadanie na jezdnie</td>
+<!--50--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #a36100ff; color: white;">Przystanek + nazwa + <br>wysiadanie na jezdnie</td>
+<!--51--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #804c00ff; color: white;">Przystanek (nazwa) + <br>wysiadanie na jezdnie</td>
+<!--52--><td style="border: solid 1px black; width: 210px; text-align: center; background-color: #ffdd63ff;">Następny Przystanek + nazwa + <br>wysiadanie na jezdnie [PL+EN]</td>
+<!--53--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #ffd024ff;">Przystanek + nazwa + <br>wysiadanie na jezdnie [PL+EN]</td>
+<!--54--><td style="border: solid 1px black; width: 150px; text-align: center; background-color: #ebb900ff;">Przystanek (nazwa) + <br>wysiadanie na jezdnie [PL+EN]</td>
+
+
+
+
+</tr></table>
+
+
+
+
+<ul>
+<li style="margin-left: -30px">
+<table style="border-collapse: collapse;"><tr>
+<td class="aa0" scope="row" style="background-color: white; color: black; font-family: arial;">
+Bródno-Podgrodzie - 1152
+</td>
+
+<td class="aa1">
+<audio src="" controls id="audioPlayer1152-1" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1152-1">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Wola---ostatni-przystanek-na-trasie-linii-l0od1avs.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1152-1")[0].src = $("#playlist1152-1 li a")[0];
+            $("#audioPlayer1152-1")[0].play();
+            $("#playlist1152-1 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-1")[0].src = this;
+               $("#audioPlayer1152-1")[0].play();
+               $("#playlist1152-1 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-1")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-1 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-1 li").removeClass("current-song");
+                $("#playlist1152-1 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-1")[0].src = $("#playlist1152-1 li a")[currentSong].href;
+                $("#audioPlayer1152-1")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+
+<td class="aa2">
+<audio src="" controls id="audioPlayer1152-2" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1152-2">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Praga---ostatni-przystanek-na-trasie-linii-l0oc0xe9.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1152-2")[0].src = $("#playlist1152-2 li a")[0];
+            $("#audioPlayer1152-2")[0].play();
+            $("#playlist1152-2 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-2")[0].src = this;
+               $("#audioPlayer1152-2")[0].play();
+               $("#playlist1152-2 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-2")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-2 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-2 li").removeClass("current-song");
+                $("#playlist1152-2 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-2")[0].src = $("#playlist1152-2 li a")[currentSong].href;
+                $("#audioPlayer1152-2")[0].play();
+            });
+        }
+		</script>
+		
+		
+
+</td>  
+ 
+<td class="aa3">
+<audio src="" controls id="audioPlayer1152-3" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1152-3">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Mokotow---ostatni-przystanek-na-trasie-linii-l3x4i5ya.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1152-3")[0].src = $("#playlist1152-3 li a")[0];
+            $("#audioPlayer1152-3")[0].play();
+            $("#playlist1152-3 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-3")[0].src = this;
+               $("#audioPlayer1152-3")[0].play();
+               $("#playlist1152-3 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-3")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-3 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-3 li").removeClass("current-song");
+                $("#playlist1152-3 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-3")[0].src = $("#playlist1152-3 li a")[currentSong].href;
+                $("#audioPlayer1152-3")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+<td class="aa4">
+<audio src="" controls  id="audioPlayer1152-4" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-4">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Zoliborz---ostatni-przystanek-na-trasie-linii-l0occ428.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-4")[0].src = $("#playlist1152-4 li a")[0];
+            $("#audioPlayer1152-4")[0].play();
+            $("#playlist1152-4 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-4")[0].src = this;
+               $("#audioPlayer1152-4")[0].play();
+               $("#playlist1152-4 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-4")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-4 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-4 li").removeClass("current-song");
+                $("#playlist1152-4 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-4")[0].src = $("#playlist1152-4 li a")[currentSong].href;
+                $("#audioPlayer1152-4")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa5">
+<audio src="" controls id="audioPlayer1152-5" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1152-5">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Woronicza---ostatni-przystanek-na-trasie-linii-l3x4j6d3.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1152-5")[0].src = $("#playlist1152-5 li a")[0];
+            $("#audioPlayer1152-5")[0].play();
+            $("#playlist1152-5 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-5")[0].src = this;
+               $("#audioPlayer1152-5")[0].play();
+               $("#playlist1152-5 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-5")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-5 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-5 li").removeClass("current-song");
+                $("#playlist1152-5 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-5")[0].src = $("#playlist1152-5 li a")[currentSong].href;
+                $("#audioPlayer1152-5")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+<td class="aa6">
+<audio src="" controls  id="audioPlayer1152-6" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-6">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Kleszczowa---ostatni-przystanek-na-trasie-linii-l0occ2l8.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-6")[0].src = $("#playlist1152-6 li a")[0];
+            $("#audioPlayer1152-6")[0].play();
+            $("#playlist1152-6 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-6")[0].src = this;
+               $("#audioPlayer1152-6")[0].play();
+               $("#playlist1152-6 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-6")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-6 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-6 li").removeClass("current-song");
+                $("#playlist1152-6 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-6")[0].src = $("#playlist1152-6 li a")[currentSong].href;
+                $("#audioPlayer1152-6")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+		
+</td>
+<td class="aa7">
+<audio src="" controls  id="audioPlayer1152-7" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-7">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Ostrobramska---ostatni-przystanek-na-trasie-linii-l0occ3cu.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-7")[0].src = $("#playlist1152-7 li a")[0];
+            $("#audioPlayer1152-7")[0].play();
+            $("#playlist1152-7 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-7")[0].src = this;
+               $("#audioPlayer1152-7")[0].play();
+               $("#playlist1152-7 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-7")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-7 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-7 li").removeClass("current-song");
+                $("#playlist1152-7 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-7")[0].src = $("#playlist1152-7 li a")[currentSong].href;
+                $("#audioPlayer1152-7")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa8">
+
+<audio src="" controls  id="audioPlayer1152-8" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-8">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Stalowa---ostatni-przystanek-na-trasie-linii-l0occ3ps.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-8")[0].src = $("#playlist1152-8 li a")[0];
+            $("#audioPlayer1152-8")[0].play();
+            $("#playlist1152-8 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-8")[0].src = this;
+               $("#audioPlayer1152-8")[0].play();
+               $("#playlist1152-8 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-8")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-8 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-8 li").removeClass("current-song");
+                $("#playlist1152-8 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-8")[0].src = $("#playlist1152-8 li a")[currentSong].href;
+                $("#audioPlayer1152-8")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa9">
+
+<audio src="" controls  id="audioPlayer1152-9" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-9">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Wola-l0odhd92.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-9")[0].src = $("#playlist1152-9 li a")[0];
+            $("#audioPlayer1152-9")[0].play();
+            $("#playlist1152-9 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-9")[0].src = this;
+               $("#audioPlayer1152-9")[0].play();
+               $("#playlist1152-9 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-9")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-9 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-9 li").removeClass("current-song");
+                $("#playlist1152-9 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-9")[0].src = $("#playlist1152-9 li a")[currentSong].href;
+                $("#audioPlayer1152-9")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa10">
+<audio src="" controls  id="audioPlayer1152-10" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-10">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Wola-l0odhd92.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-10")[0].src = $("#playlist1152-10 li a")[0];
+            $("#audioPlayer1152-10")[0].play();
+            $("#playlist1152-10 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-10")[0].src = this;
+               $("#audioPlayer1152-10")[0].play();
+               $("#playlist1152-10 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-10")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-10 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-10 li").removeClass("current-song");
+                $("#playlist1152-10 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-10")[0].src = $("#playlist1152-10 li a")[currentSong].href;
+                $("#audioPlayer1152-10")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa11">
+<audio src="" controls  id="audioPlayer1152-11" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-11">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Praga-l0odblv8.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-11")[0].src = $("#playlist1152-11 li a")[0];
+            $("#audioPlayer1152-11")[0].play();
+            $("#playlist1152-11 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-11")[0].src = this;
+               $("#audioPlayer1152-11")[0].play();
+               $("#playlist1152-11 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-11")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-11 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-11 li").removeClass("current-song");
+                $("#playlist1152-11 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-11")[0].src = $("#playlist1152-11 li a")[currentSong].href;
+                $("#audioPlayer1152-11")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa12">
+<audio src="" controls  id="audioPlayer1152-12" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-12">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Praga-l0odblv8.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-12")[0].src = $("#playlist1152-12 li a")[0];
+            $("#audioPlayer1152-12")[0].play();
+            $("#playlist1152-12 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-12")[0].src = this;
+               $("#audioPlayer1152-12")[0].play();
+               $("#playlist1152-12 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-12")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-12 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-12 li").removeClass("current-song");
+                $("#playlist1152-12 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-12")[0].src = $("#playlist1152-12 li a")[currentSong].href;
+                $("#audioPlayer1152-12")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa13">
+<audio src="" controls  id="audioPlayer1152-13" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-13">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Mokotow-l3x4i6ai.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-13")[0].src = $("#playlist1152-13 li a")[0];
+            $("#audioPlayer1152-13")[0].play();
+            $("#playlist1152-13 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-13")[0].src = this;
+               $("#audioPlayer1152-13")[0].play();
+               $("#playlist1152-13 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-13")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-13 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-13 li").removeClass("current-song");
+                $("#playlist1152-13 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-13")[0].src = $("#playlist1152-13 li a")[currentSong].href;
+                $("#audioPlayer1152-13")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa14">
+<audio src="" controls  id="audioPlayer1152-14" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-14">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Mokotow-l3x4i6ai.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-14")[0].src = $("#playlist1152-14 li a")[0];
+            $("#audioPlayer1152-14")[0].play();
+            $("#playlist1152-14 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-14")[0].src = this;
+               $("#audioPlayer1152-14")[0].play();
+               $("#playlist1152-14 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-14")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-14 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-14 li").removeClass("current-song");
+                $("#playlist1152-14 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-14")[0].src = $("#playlist1152-14 li a")[currentSong].href;
+                $("#audioPlayer1152-14")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+
+<td class="aa15">
+<audio src="" controls  id="audioPlayer1152-15" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-15">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Zoliborz-l0odbp0a.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-15")[0].src = $("#playlist1152-15 li a")[0];
+            $("#audioPlayer1152-15")[0].play();
+            $("#playlist1152-15 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-15")[0].src = this;
+               $("#audioPlayer1152-15")[0].play();
+               $("#playlist1152-15 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-15")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-15 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-15 li").removeClass("current-song");
+                $("#playlist1152-15 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-15")[0].src = $("#playlist1152-15 li a")[currentSong].href;
+                $("#audioPlayer1152-15")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa16">
+<audio src="" controls  id="audioPlayer1152-16" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-16">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Zoliborz-l0odbp0a.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-16")[0].src = $("#playlist1152-16 li a")[0];
+            $("#audioPlayer1152-16")[0].play();
+            $("#playlist1152-16 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-16")[0].src = this;
+               $("#audioPlayer1152-16")[0].play();
+               $("#playlist1152-16 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-16")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-16 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-16 li").removeClass("current-song");
+                $("#playlist1152-16 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-16")[0].src = $("#playlist1152-16 li a")[currentSong].href;
+                $("#audioPlayer1152-16")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa17">
+<audio src="" controls  id="audioPlayer1152-17" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-17">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Woronicza-l3x4j6qg.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-17")[0].src = $("#playlist1152-17 li a")[0];
+            $("#audioPlayer1152-17")[0].play();
+            $("#playlist1152-17 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-17")[0].src = this;
+               $("#audioPlayer1152-17")[0].play();
+               $("#playlist1152-17 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-17")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-17 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-17 li").removeClass("current-song");
+                $("#playlist1152-17 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-17")[0].src = $("#playlist1152-17 li a")[currentSong].href;
+                $("#audioPlayer1152-17")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa18">
+<audio src="" controls  id="audioPlayer1152-18" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-18">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Woronicza-l3x4j6qg.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-18")[0].src = $("#playlist1152-18 li a")[0];
+            $("#audioPlayer1152-18")[0].play();
+            $("#playlist1152-18 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-18")[0].src = this;
+               $("#audioPlayer1152-18")[0].play();
+               $("#playlist1152-18 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-18")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-18 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-18 li").removeClass("current-song");
+                $("#playlist1152-18 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-18")[0].src = $("#playlist1152-18 li a")[currentSong].href;
+                $("#audioPlayer1152-18")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa19">
+<audio src="" controls  id="audioPlayer1152-19" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-19">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Kleszczowa-l0odbkuo.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-19")[0].src = $("#playlist1152-19 li a")[0];
+            $("#audioPlayer1152-19")[0].play();
+            $("#playlist1152-19 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-19")[0].src = this;
+               $("#audioPlayer1152-19")[0].play();
+               $("#playlist1152-19 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-19")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-19 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-19 li").removeClass("current-song");
+                $("#playlist1152-19 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-19")[0].src = $("#playlist1152-19 li a")[currentSong].href;
+                $("#audioPlayer1152-19")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa20">
+<audio src="" controls  id="audioPlayer1152-20" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-20">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Kleszczowa-l0odbkuo.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-20")[0].src = $("#playlist1152-20 li a")[0];
+            $("#audioPlayer1152-20")[0].play();
+            $("#playlist1152-20 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-20")[0].src = this;
+               $("#audioPlayer1152-20")[0].play();
+               $("#playlist1152-20 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-20")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-20 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-20 li").removeClass("current-song");
+                $("#playlist1152-20 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-20")[0].src = $("#playlist1152-20 li a")[currentSong].href;
+                $("#audioPlayer1152-20")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa21">
+<audio src="" controls  id="audioPlayer1152-21" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-21">
+<li class="current-song">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Ostrobramska-l0odblhm.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-21")[0].src = $("#playlist1152-21 li a")[0];
+            $("#audioPlayer1152-21")[0].play();
+            $("#playlist1152-21 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-21")[0].src = this;
+               $("#audioPlayer1152-21")[0].play();
+               $("#playlist1152-21 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-21")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-21 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-21 li").removeClass("current-song");
+                $("#playlist1152-21 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-21")[0].src = $("#playlist1152-21 li a")[currentSong].href;
+                $("#audioPlayer1152-21")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa22">
+<audio src="" controls  id="audioPlayer1152-22" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-22">
+<li class="current-song">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Ostrobramska-l0odblhm.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-22")[0].src = $("#playlist1152-22 li a")[0];
+            $("#audioPlayer1152-22")[0].play();
+            $("#playlist1152-22 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-22")[0].src = this;
+               $("#audioPlayer1152-22")[0].play();
+               $("#playlist1152-22 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-22")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-22 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-22 li").removeClass("current-song");
+                $("#playlist1152-22 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-22")[0].src = $("#playlist1152-22 li a")[currentSong].href;
+                $("#audioPlayer1152-22")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa23">
+<audio src="" controls  id="audioPlayer1152-23" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-23">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Stalowa-l0odbm9f.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-23")[0].src = $("#playlist1152-23 li a")[0];
+            $("#audioPlayer1152-23")[0].play();
+            $("#playlist1152-23 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-23")[0].src = this;
+               $("#audioPlayer1152-23")[0].play();
+               $("#playlist1152-23 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-23")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-23 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-23 li").removeClass("current-song");
+                $("#playlist1152-23 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-23")[0].src = $("#playlist1152-23 li a")[currentSong].href;
+                $("#audioPlayer1152-23")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa24">
+<audio src="" controls  id="audioPlayer1152-24" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-24">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Stalowa-l0odbm9f.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-24")[0].src = $("#playlist1152-24 li a")[0];
+            $("#audioPlayer1152-24")[0].play();
+            $("#playlist1152-24 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-24")[0].src = this;
+               $("#audioPlayer1152-24")[0].play();
+               $("#playlist1152-24 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-24")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-24 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-24 li").removeClass("current-song");
+                $("#playlist1152-24 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-24")[0].src = $("#playlist1152-24 li a")[currentSong].href;
+                $("#audioPlayer1152-24")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa25">
+<audio src="" controls  id="audioPlayer1152-25" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-25">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-25")[0].src = $("#playlist1152-25 li a")[0];
+            $("#audioPlayer1152-25")[0].play();
+            $("#playlist1152-25 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-25")[0].src = this;
+               $("#audioPlayer1152-25")[0].play();
+               $("#playlist1152-25 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-25")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-25 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-25 li").removeClass("current-song");
+                $("#playlist1152-25 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-25")[0].src = $("#playlist1152-25 li a")[currentSong].href;
+                $("#audioPlayer1152-25")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa26">
+<audio src="" controls  id="audioPlayer1152-26" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-26">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-26")[0].src = $("#playlist1152-26 li a")[0];
+            $("#audioPlayer1152-26")[0].play();
+            $("#playlist1152-26 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-26")[0].src = this;
+               $("#audioPlayer1152-26")[0].play();
+               $("#playlist1152-26 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-26")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-26 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-26 li").removeClass("current-song");
+                $("#playlist1152-26 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-26")[0].src = $("#playlist1152-26 li a")[currentSong].href;
+                $("#audioPlayer1152-26")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa27">
+<audio src="" controls  id="audioPlayer1152-27" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-27">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-27")[0].src = $("#playlist1152-27 li a")[0];
+            $("#audioPlayer1152-27")[0].play();
+            $("#playlist1152-27 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-27")[0].src = this;
+               $("#audioPlayer1152-27")[0].play();
+               $("#playlist1152-27 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-27")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-27 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-27 li").removeClass("current-song");
+                $("#playlist1152-27 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-27")[0].src = $("#playlist1152-27 li a")[currentSong].href;
+                $("#audioPlayer1152-27")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa28">
+<audio src="" controls  id="audioPlayer1152-28" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-28">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-28")[0].src = $("#playlist1152-28 li a")[0];
+            $("#audioPlayer1152-28")[0].play();
+            $("#playlist1152-28 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-28")[0].src = this;
+               $("#audioPlayer1152-28")[0].play();
+               $("#playlist1152-28 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-28")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-28 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-28 li").removeClass("current-song");
+                $("#playlist1152-28 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-28")[0].src = $("#playlist1152-28 li a")[currentSong].href;
+                $("#audioPlayer1152-28")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa29">
+<audio src="" controls  id="audioPlayer1152-29" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-29">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-29")[0].src = $("#playlist1152-29 li a")[0];
+            $("#audioPlayer1152-29")[0].play();
+            $("#playlist1152-29 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-29")[0].src = this;
+               $("#audioPlayer1152-29")[0].play();
+               $("#playlist1152-29 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-29")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-29 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-29 li").removeClass("current-song");
+                $("#playlist1152-29 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-29")[0].src = $("#playlist1152-29 li a")[currentSong].href;
+                $("#audioPlayer1152-29")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa30">
+<audio src="" controls  id="audioPlayer1152-30" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-30">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-30")[0].src = $("#playlist1152-30 li a")[0];
+            $("#audioPlayer1152-30")[0].play();
+            $("#playlist1152-30 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-30")[0].src = this;
+               $("#audioPlayer1152-30")[0].play();
+               $("#playlist1152-30 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-30")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-30 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-30 li").removeClass("current-song");
+                $("#playlist1152-30 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-30")[0].src = $("#playlist1152-30 li a")[currentSong].href;
+                $("#audioPlayer1152-30")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+
+<td class="aa31">
+<audio src="" controls  id="audioPlayer1152-31" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-31">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-31")[0].src = $("#playlist1152-31 li a")[0];
+            $("#audioPlayer1152-31")[0].play();
+            $("#playlist1152-31 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-31")[0].src = this;
+               $("#audioPlayer1152-31")[0].play();
+               $("#playlist1152-31 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-31")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-31 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-31 li").removeClass("current-song");
+                $("#playlist1152-31 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-31")[0].src = $("#playlist1152-31 li a")[currentSong].href;
+                $("#audioPlayer1152-31")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+
+<td class="aa32">
+<audio src="" controls  id="audioPlayer1152-32" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-32">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-32")[0].src = $("#playlist1152-32 li a")[0];
+            $("#audioPlayer1152-32")[0].play();
+            $("#playlist1152-32 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-32")[0].src = this;
+               $("#audioPlayer1152-32")[0].play();
+               $("#playlist1152-32 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-32")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-32 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-32 li").removeClass("current-song");
+                $("#playlist1152-32 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-32")[0].src = $("#playlist1152-32 li a")[currentSong].href;
+                $("#audioPlayer1152-32")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+
+<td class="aa33">
+<audio src="" controls  id="audioPlayer1152-33" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-33">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-33")[0].src = $("#playlist1152-33 li a")[0];
+            $("#audioPlayer1152-33")[0].play();
+            $("#playlist1152-33 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-33")[0].src = this;
+               $("#audioPlayer1152-33")[0].play();
+               $("#playlist1152-33 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-33")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-33 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-33 li").removeClass("current-song");
+                $("#playlist1152-33 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-33")[0].src = $("#playlist1152-33 li a")[currentSong].href;
+                $("#audioPlayer1152-33")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+
+<td class="aa34">
+<audio src="" controls  id="audioPlayer1152-34" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-34">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-34")[0].src = $("#playlist1152-34 li a")[0];
+            $("#audioPlayer1152-34")[0].play();
+            $("#playlist1152-34 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-34")[0].src = this;
+               $("#audioPlayer1152-34")[0].play();
+               $("#playlist1152-34 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-34")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-34 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-34 li").removeClass("current-song");
+                $("#playlist1152-34 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-34")[0].src = $("#playlist1152-34 li a")[currentSong].href;
+                $("#audioPlayer1152-34")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa35">
+<audio src="" controls  id="audioPlayer1152-35" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-35">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-35")[0].src = $("#playlist1152-35 li a")[0];
+            $("#audioPlayer1152-35")[0].play();
+            $("#playlist1152-35 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-35")[0].src = this;
+               $("#audioPlayer1152-35")[0].play();
+               $("#playlist1152-35 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-35")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-35 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-35 li").removeClass("current-song");
+                $("#playlist1152-35 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-35")[0].src = $("#playlist1152-35 li a")[currentSong].href;
+                $("#audioPlayer1152-35")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa36">
+<audio src="" controls  id="audioPlayer1152-36" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-36">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-36")[0].src = $("#playlist1152-36 li a")[0];
+            $("#audioPlayer1152-36")[0].play();
+            $("#playlist1152-36 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-36")[0].src = this;
+               $("#audioPlayer1152-36")[0].play();
+               $("#playlist1152-36 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-36")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-36 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-36 li").removeClass("current-song");
+                $("#playlist1152-36 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-36")[0].src = $("#playlist1152-36 li a")[currentSong].href;
+                $("#audioPlayer1152-36")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa37">
+<audio src="" controls  id="audioPlayer1152-37" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-37">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/next-stop-l0echtku.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-37")[0].src = $("#playlist1152-37 li a")[0];
+            $("#audioPlayer1152-37")[0].play();
+            $("#playlist1152-37 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-37")[0].src = this;
+               $("#audioPlayer1152-37")[0].play();
+               $("#playlist1152-37 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-37")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-37 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-37 li").removeClass("current-song");
+                $("#playlist1152-37 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-37")[0].src = $("#playlist1152-37 li a")[currentSong].href;
+                $("#audioPlayer1152-37")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa38">
+<audio src="" controls  id="audioPlayer1152-38" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-38">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/next-stop-l0echtku.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/stop-on-the-request-l0echty7.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-38")[0].src = $("#playlist1152-38 li a")[0];
+            $("#audioPlayer1152-38")[0].play();
+            $("#playlist1152-38 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-38")[0].src = this;
+               $("#audioPlayer1152-38")[0].play();
+               $("#playlist1152-38 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-38")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-38 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-38 li").removeClass("current-song");
+                $("#playlist1152-38 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-38")[0].src = $("#playlist1152-38 li a")[currentSong].href;
+                $("#audioPlayer1152-38")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa39">
+<audio src="" controls  id="audioPlayer1152-39" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-39">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-39")[0].src = $("#playlist1152-39 li a")[0];
+            $("#audioPlayer1152-39")[0].play();
+            $("#playlist1152-39 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-39")[0].src = this;
+               $("#audioPlayer1152-39")[0].play();
+               $("#playlist1152-39 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-39")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-39 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-39 li").removeClass("current-song");
+                $("#playlist1152-39 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-39")[0].src = $("#playlist1152-39 li a")[currentSong].href;
+                $("#audioPlayer1152-39")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa40">
+<audio src="" controls  id="audioPlayer1152-40" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-40">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/stop-on-the-request-l0echty7.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-40")[0].src = $("#playlist1152-40 li a")[0];
+            $("#audioPlayer1152-40")[0].play();
+            $("#playlist1152-40 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-40")[0].src = this;
+               $("#audioPlayer1152-40")[0].play();
+               $("#playlist1152-40 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-40")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-40 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-40 li").removeClass("current-song");
+                $("#playlist1152-40 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-40")[0].src = $("#playlist1152-40 li a")[currentSong].href;
+                $("#audioPlayer1152-40")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa41">
+<audio src="" controls  id="audioPlayer1152-41" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-41">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-41")[0].src = $("#playlist1152-41 li a")[0];
+            $("#audioPlayer1152-41")[0].play();
+            $("#playlist1152-41 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-41")[0].src = this;
+               $("#audioPlayer1152-41")[0].play();
+               $("#playlist1152-41 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-41")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-41 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-41 li").removeClass("current-song");
+                $("#playlist1152-41 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-41")[0].src = $("#playlist1152-41 li a")[currentSong].href;
+                $("#audioPlayer1152-41")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa42">
+<audio src="" controls  id="audioPlayer1152-42" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-42">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/stop-on-the-request-l0echty7.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-42")[0].src = $("#playlist1152-42 li a")[0];
+            $("#audioPlayer1152-42")[0].play();
+            $("#playlist1152-42 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-42")[0].src = this;
+               $("#audioPlayer1152-42")[0].play();
+               $("#playlist1152-42 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-42")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-42 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-42 li").removeClass("current-song");
+                $("#playlist1152-42 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-42")[0].src = $("#playlist1152-42 li a")[currentSong].href;
+                $("#audioPlayer1152-42")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa43">
+<audio src="" controls  id="audioPlayer1152-43" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-43">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/next-stop-l0echtku.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-43")[0].src = $("#playlist1152-43 li a")[0];
+            $("#audioPlayer1152-43")[0].play();
+            $("#playlist1152-43 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-43")[0].src = this;
+               $("#audioPlayer1152-43")[0].play();
+               $("#playlist1152-43 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-43")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-43 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-43 li").removeClass("current-song");
+                $("#playlist1152-43 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-43")[0].src = $("#playlist1152-43 li a")[currentSong].href;
+                $("#audioPlayer1152-43")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa44">
+<audio src="" controls  id="audioPlayer1152-44" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-44">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/next-stop-l0echtku.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/stop-on-the-request-l0echty7.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-44")[0].src = $("#playlist1152-44 li a")[0];
+            $("#audioPlayer1152-44")[0].play();
+            $("#playlist1152-44 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-44")[0].src = this;
+               $("#audioPlayer1152-44")[0].play();
+               $("#playlist1152-44 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-44")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-44 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-44 li").removeClass("current-song");
+                $("#playlist1152-44 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-44")[0].src = $("#playlist1152-44 li a")[currentSong].href;
+                $("#audioPlayer1152-44")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa45">
+<audio src="" controls  id="audioPlayer1152-45" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-45">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-45")[0].src = $("#playlist1152-45 li a")[0];
+            $("#audioPlayer1152-45")[0].play();
+            $("#playlist1152-45 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-45")[0].src = this;
+               $("#audioPlayer1152-45")[0].play();
+               $("#playlist1152-45 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-45")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-45 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-45 li").removeClass("current-song");
+                $("#playlist1152-45 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-45")[0].src = $("#playlist1152-45 li a")[currentSong].href;
+                $("#audioPlayer1152-45")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa46">
+<audio src="" controls  id="audioPlayer1152-46" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-46">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/stop-on-the-request-l0echty7.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-46")[0].src = $("#playlist1152-46 li a")[0];
+            $("#audioPlayer1152-46")[0].play();
+            $("#playlist1152-46 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-46")[0].src = this;
+               $("#audioPlayer1152-46")[0].play();
+               $("#playlist1152-46 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-46")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-46 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-46 li").removeClass("current-song");
+                $("#playlist1152-46 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-46")[0].src = $("#playlist1152-46 li a")[currentSong].href;
+                $("#audioPlayer1152-46")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa47">
+</td>
+<td class="aa48">
+</td>
+<td class="aa49">
+</td>
+<td class="aa50">
+</td>
+<td class="aa51">
+</td>
+<td class="aa52">
+</td>
+<td class="aa53">
+</td>
+<td class="aa54">
+</td>
+</tr></table>
+</li>
+<li style="margin-left: -30px">
+<table style="border-collapse: collapse;"><tr>
+<td class="aa0" scope="row" style="background-color: white; color: black; font-family: arial; ">
+Łojewska - 1153
+</td>
+
+<td class="aa1">
+<audio src="" controls id="audioPlayer1153-1" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1153-1">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Wola---ostatni-przystanek-na-trasie-linii-l0od1avs.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1153-1")[0].src = $("#playlist1153-1 li a")[0];
+            $("#audioPlayer1153-1")[0].play();
+            $("#playlist1153-1 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-1")[0].src = this;
+               $("#audioPlayer1153-1")[0].play();
+               $("#playlist1153-1 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-1")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-1 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-1 li").removeClass("current-song");
+                $("#playlist1153-1 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-1")[0].src = $("#playlist1153-1 li a")[currentSong].href;
+                $("#audioPlayer1153-1")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+
+<td class="aa2">
+<audio src="" controls id="audioPlayer1153-2" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1153-2">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Praga---ostatni-przystanek-na-trasie-linii-l0oc0xe9.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1153-2")[0].src = $("#playlist1153-2 li a")[0];
+            $("#audioPlayer1153-2")[0].play();
+            $("#playlist1153-2 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-2")[0].src = this;
+               $("#audioPlayer1153-2")[0].play();
+               $("#playlist1153-2 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-2")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-2 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-2 li").removeClass("current-song");
+                $("#playlist1153-2 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-2")[0].src = $("#playlist1153-2 li a")[currentSong].href;
+                $("#audioPlayer1153-2")[0].play();
+            });
+        }
+		</script>
+		
+		
+
+</td>  
+ 
+<td class="aa3">
+<audio src="" controls id="audioPlayer1153-3" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1153-3">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Mokotow---ostatni-przystanek-na-trasie-linii-l3x4i5ya.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1153-3")[0].src = $("#playlist1153-3 li a")[0];
+            $("#audioPlayer1153-3")[0].play();
+            $("#playlist1153-3 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-3")[0].src = this;
+               $("#audioPlayer1153-3")[0].play();
+               $("#playlist1153-3 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-3")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-3 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-3 li").removeClass("current-song");
+                $("#playlist1153-3 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-3")[0].src = $("#playlist1153-3 li a")[currentSong].href;
+                $("#audioPlayer1153-3")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+<td class="aa4">
+<audio src="" controls  id="audioPlayer1153-4" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-4">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Zoliborz---ostatni-przystanek-na-trasie-linii-l0occ428.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-4")[0].src = $("#playlist1153-4 li a")[0];
+            $("#audioPlayer1153-4")[0].play();
+            $("#playlist1153-4 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-4")[0].src = this;
+               $("#audioPlayer1153-4")[0].play();
+               $("#playlist1153-4 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-4")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-4 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-4 li").removeClass("current-song");
+                $("#playlist1153-4 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-4")[0].src = $("#playlist1153-4 li a")[currentSong].href;
+                $("#audioPlayer1153-4")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa5">
+<audio src="" controls id="audioPlayer1153-5" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1153-5">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Woronicza---ostatni-przystanek-na-trasie-linii-l3x4j6d3.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1153-5")[0].src = $("#playlist1153-5 li a")[0];
+            $("#audioPlayer1153-5")[0].play();
+            $("#playlist1153-5 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-5")[0].src = this;
+               $("#audioPlayer1153-5")[0].play();
+               $("#playlist1153-5 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-5")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-5 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-5 li").removeClass("current-song");
+                $("#playlist1153-5 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-5")[0].src = $("#playlist1153-5 li a")[currentSong].href;
+                $("#audioPlayer1153-5")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+<td class="aa6">
+<audio src="" controls  id="audioPlayer1153-6" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-6">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Kleszczowa---ostatni-przystanek-na-trasie-linii-l0occ2l8.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-6")[0].src = $("#playlist1153-6 li a")[0];
+            $("#audioPlayer1153-6")[0].play();
+            $("#playlist1153-6 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-6")[0].src = this;
+               $("#audioPlayer1153-6")[0].play();
+               $("#playlist1153-6 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-6")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-6 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-6 li").removeClass("current-song");
+                $("#playlist1153-6 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-6")[0].src = $("#playlist1153-6 li a")[currentSong].href;
+                $("#audioPlayer1153-6")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+		
+</td>
+<td class="aa7">
+<audio src="" controls  id="audioPlayer1153-7" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-7">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Ostrobramska---ostatni-przystanek-na-trasie-linii-l0occ3cu.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-7")[0].src = $("#playlist1153-7 li a")[0];
+            $("#audioPlayer1153-7")[0].play();
+            $("#playlist1153-7 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-7")[0].src = this;
+               $("#audioPlayer1153-7")[0].play();
+               $("#playlist1153-7 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-7")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-7 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-7 li").removeClass("current-song");
+                $("#playlist1153-7 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-7")[0].src = $("#playlist1153-7 li a")[currentSong].href;
+                $("#audioPlayer1153-7")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa8">
+
+<audio src="" controls  id="audioPlayer1153-8" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-8">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Stalowa---ostatni-przystanek-na-trasie-linii-l0occ3ps.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-8")[0].src = $("#playlist1153-8 li a")[0];
+            $("#audioPlayer1153-8")[0].play();
+            $("#playlist1153-8 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-8")[0].src = this;
+               $("#audioPlayer1153-8")[0].play();
+               $("#playlist1153-8 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-8")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-8 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-8 li").removeClass("current-song");
+                $("#playlist1153-8 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-8")[0].src = $("#playlist1153-8 li a")[currentSong].href;
+                $("#audioPlayer1153-8")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa9">
+
+<audio src="" controls  id="audioPlayer1153-9" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-9">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Wola-l0odhd92.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-9")[0].src = $("#playlist1153-9 li a")[0];
+            $("#audioPlayer1153-9")[0].play();
+            $("#playlist1153-9 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-9")[0].src = this;
+               $("#audioPlayer1153-9")[0].play();
+               $("#playlist1153-9 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-9")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-9 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-9 li").removeClass("current-song");
+                $("#playlist1153-9 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-9")[0].src = $("#playlist1153-9 li a")[currentSong].href;
+                $("#audioPlayer1153-9")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa10">
+<audio src="" controls  id="audioPlayer1153-10" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-10">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Wola-l0odhd92.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-10")[0].src = $("#playlist1153-10 li a")[0];
+            $("#audioPlayer1153-10")[0].play();
+            $("#playlist1153-10 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-10")[0].src = this;
+               $("#audioPlayer1153-10")[0].play();
+               $("#playlist1153-10 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-10")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-10 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-10 li").removeClass("current-song");
+                $("#playlist1153-10 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-10")[0].src = $("#playlist1153-10 li a")[currentSong].href;
+                $("#audioPlayer1153-10")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa11">
+<audio src="" controls  id="audioPlayer1153-11" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-11">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Praga-l0odblv8.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-11")[0].src = $("#playlist1153-11 li a")[0];
+            $("#audioPlayer1153-11")[0].play();
+            $("#playlist1153-11 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-11")[0].src = this;
+               $("#audioPlayer1153-11")[0].play();
+               $("#playlist1153-11 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-11")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-11 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-11 li").removeClass("current-song");
+                $("#playlist1153-11 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-11")[0].src = $("#playlist1153-11 li a")[currentSong].href;
+                $("#audioPlayer1153-11")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa12">
+<audio src="" controls  id="audioPlayer1153-12" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-12">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Praga-l0odblv8.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-12")[0].src = $("#playlist1153-12 li a")[0];
+            $("#audioPlayer1153-12")[0].play();
+            $("#playlist1153-12 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-12")[0].src = this;
+               $("#audioPlayer1153-12")[0].play();
+               $("#playlist1153-12 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-12")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-12 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-12 li").removeClass("current-song");
+                $("#playlist1153-12 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-12")[0].src = $("#playlist1153-12 li a")[currentSong].href;
+                $("#audioPlayer1153-12")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa13">
+<audio src="" controls  id="audioPlayer1153-13" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-13">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Mokotow-l3x4i6ai.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-13")[0].src = $("#playlist1153-13 li a")[0];
+            $("#audioPlayer1153-13")[0].play();
+            $("#playlist1153-13 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-13")[0].src = this;
+               $("#audioPlayer1153-13")[0].play();
+               $("#playlist1153-13 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-13")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-13 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-13 li").removeClass("current-song");
+                $("#playlist1153-13 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-13")[0].src = $("#playlist1153-13 li a")[currentSong].href;
+                $("#audioPlayer1153-13")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa14">
+<audio src="" controls  id="audioPlayer1153-14" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-14">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Mokotow-l3x4i6ai.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-14")[0].src = $("#playlist1153-14 li a")[0];
+            $("#audioPlayer1153-14")[0].play();
+            $("#playlist1153-14 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-14")[0].src = this;
+               $("#audioPlayer1153-14")[0].play();
+               $("#playlist1153-14 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-14")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-14 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-14 li").removeClass("current-song");
+                $("#playlist1153-14 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-14")[0].src = $("#playlist1153-14 li a")[currentSong].href;
+                $("#audioPlayer1153-14")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa15">
+<audio src="" controls  id="audioPlayer1153-15" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-15">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Zoliborz-l0odbp0a.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-15")[0].src = $("#playlist1153-15 li a")[0];
+            $("#audioPlayer1153-15")[0].play();
+            $("#playlist1153-15 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-15")[0].src = this;
+               $("#audioPlayer1153-15")[0].play();
+               $("#playlist1153-15 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-15")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-15 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-15 li").removeClass("current-song");
+                $("#playlist1153-15 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-15")[0].src = $("#playlist1153-15 li a")[currentSong].href;
+                $("#audioPlayer1153-15")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa16">
+<audio src="" controls  id="audioPlayer1153-16" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-16">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Zoliborz-l0odbp0a.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-16")[0].src = $("#playlist1153-16 li a")[0];
+            $("#audioPlayer1153-16")[0].play();
+            $("#playlist1153-16 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-16")[0].src = this;
+               $("#audioPlayer1153-16")[0].play();
+               $("#playlist1153-16 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-16")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-16 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-16 li").removeClass("current-song");
+                $("#playlist1153-16 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-16")[0].src = $("#playlist1153-16 li a")[currentSong].href;
+                $("#audioPlayer1153-16")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa17">
+<audio src="" controls  id="audioPlayer1153-17" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-17">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Woronicza-l3x4j6qg.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-17")[0].src = $("#playlist1153-17 li a")[0];
+            $("#audioPlayer1153-17")[0].play();
+            $("#playlist1153-17 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-17")[0].src = this;
+               $("#audioPlayer1153-17")[0].play();
+               $("#playlist1153-17 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-17")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-17 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-17 li").removeClass("current-song");
+                $("#playlist1153-17 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-17")[0].src = $("#playlist1153-17 li a")[currentSong].href;
+                $("#audioPlayer1153-17")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa18">
+<audio src="" controls  id="audioPlayer1153-18" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-18">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Woronicza-l3x4j6qg.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-18")[0].src = $("#playlist1153-18 li a")[0];
+            $("#audioPlayer1153-18")[0].play();
+            $("#playlist1153-18 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-18")[0].src = this;
+               $("#audioPlayer1153-18")[0].play();
+               $("#playlist1153-18 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-18")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-18 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-18 li").removeClass("current-song");
+                $("#playlist1153-18 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-18")[0].src = $("#playlist1153-18 li a")[currentSong].href;
+                $("#audioPlayer1153-18")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa19">
+<audio src="" controls  id="audioPlayer1153-19" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-19">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Kleszczowa-l0odbkuo.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-19")[0].src = $("#playlist1153-19 li a")[0];
+            $("#audioPlayer1153-19")[0].play();
+            $("#playlist1153-19 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-19")[0].src = this;
+               $("#audioPlayer1153-19")[0].play();
+               $("#playlist1153-19 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-19")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-19 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-19 li").removeClass("current-song");
+                $("#playlist1153-19 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-19")[0].src = $("#playlist1153-19 li a")[currentSong].href;
+                $("#audioPlayer1153-19")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa20">
+<audio src="" controls  id="audioPlayer1153-20" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-20">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Kleszczowa-l0odbkuo.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-20")[0].src = $("#playlist1153-20 li a")[0];
+            $("#audioPlayer1153-20")[0].play();
+            $("#playlist1153-20 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-20")[0].src = this;
+               $("#audioPlayer1153-20")[0].play();
+               $("#playlist1153-20 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-20")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-20 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-20 li").removeClass("current-song");
+                $("#playlist1153-20 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-20")[0].src = $("#playlist1153-20 li a")[currentSong].href;
+                $("#audioPlayer1153-20")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa21">
+<audio src="" controls  id="audioPlayer1153-21" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-21">
+<li class="current-song">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Ostrobramska-l0odblhm.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-21")[0].src = $("#playlist1153-21 li a")[0];
+            $("#audioPlayer1153-21")[0].play();
+            $("#playlist1153-21 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-21")[0].src = this;
+               $("#audioPlayer1153-21")[0].play();
+               $("#playlist1153-21 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-21")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-21 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-21 li").removeClass("current-song");
+                $("#playlist1153-21 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-21")[0].src = $("#playlist1153-21 li a")[currentSong].href;
+                $("#audioPlayer1153-21")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa22">
+<audio src="" controls  id="audioPlayer1153-22" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-22">
+<li class="current-song">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Ostrobramska-l0odblhm.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-22")[0].src = $("#playlist1153-22 li a")[0];
+            $("#audioPlayer1153-22")[0].play();
+            $("#playlist1153-22 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-22")[0].src = this;
+               $("#audioPlayer1153-22")[0].play();
+               $("#playlist1153-22 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-22")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-22 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-22 li").removeClass("current-song");
+                $("#playlist1153-22 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-22")[0].src = $("#playlist1153-22 li a")[currentSong].href;
+                $("#audioPlayer1153-22")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa23">
+<audio src="" controls  id="audioPlayer1153-23" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-23">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Stalowa-l0odbm9f.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-23")[0].src = $("#playlist1153-23 li a")[0];
+            $("#audioPlayer1153-23")[0].play();
+            $("#playlist1153-23 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-23")[0].src = this;
+               $("#audioPlayer1153-23")[0].play();
+               $("#playlist1153-23 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-23")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-23 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-23 li").removeClass("current-song");
+                $("#playlist1153-23 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-23")[0].src = $("#playlist1153-23 li a")[currentSong].href;
+                $("#audioPlayer1153-23")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa24">
+<audio src="" controls  id="audioPlayer1153-24" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-24">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Stalowa-l0odbm9f.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-24")[0].src = $("#playlist1153-24 li a")[0];
+            $("#audioPlayer1153-24")[0].play();
+            $("#playlist1153-24 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-24")[0].src = this;
+               $("#audioPlayer1153-24")[0].play();
+               $("#playlist1153-24 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-24")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-24 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-24 li").removeClass("current-song");
+                $("#playlist1153-24 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-24")[0].src = $("#playlist1153-24 li a")[currentSong].href;
+                $("#audioPlayer1153-24")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa25">
+<audio src="" controls  id="audioPlayer1153-25" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-25">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-25")[0].src = $("#playlist1153-25 li a")[0];
+            $("#audioPlayer1153-25")[0].play();
+            $("#playlist1153-25 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-25")[0].src = this;
+               $("#audioPlayer1153-25")[0].play();
+               $("#playlist1153-25 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-25")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-25 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-25 li").removeClass("current-song");
+                $("#playlist1153-25 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-25")[0].src = $("#playlist1153-25 li a")[currentSong].href;
+                $("#audioPlayer1153-25")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa26">
+<audio src="" controls  id="audioPlayer1153-26" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-26">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-26")[0].src = $("#playlist1153-26 li a")[0];
+            $("#audioPlayer1153-26")[0].play();
+            $("#playlist1153-26 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-26")[0].src = this;
+               $("#audioPlayer1153-26")[0].play();
+               $("#playlist1153-26 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-26")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-26 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-26 li").removeClass("current-song");
+                $("#playlist1153-26 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-26")[0].src = $("#playlist1153-26 li a")[currentSong].href;
+                $("#audioPlayer1153-26")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa27">
+<audio src="" controls  id="audioPlayer1153-27" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-27">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-27")[0].src = $("#playlist1153-27 li a")[0];
+            $("#audioPlayer1153-27")[0].play();
+            $("#playlist1153-27 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-27")[0].src = this;
+               $("#audioPlayer1153-27")[0].play();
+               $("#playlist1153-27 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-27")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-27 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-27 li").removeClass("current-song");
+                $("#playlist1153-27 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-27")[0].src = $("#playlist1153-27 li a")[currentSong].href;
+                $("#audioPlayer1153-27")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa28">
+<audio src="" controls  id="audioPlayer1153-28" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-28">
+<li class="current-song"><li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-28")[0].src = $("#playlist1153-28 li a")[0];
+            $("#audioPlayer1153-28")[0].play();
+            $("#playlist1153-28 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-28")[0].src = this;
+               $("#audioPlayer1153-28")[0].play();
+               $("#playlist1153-28 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-28")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-28 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-28 li").removeClass("current-song");
+                $("#playlist1153-28 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-28")[0].src = $("#playlist1153-28 li a")[currentSong].href;
+                $("#audioPlayer1153-28")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa29">
+<audio src="" controls  id="audioPlayer1153-29" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-29">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-29")[0].src = $("#playlist1153-29 li a")[0];
+            $("#audioPlayer1153-29")[0].play();
+            $("#playlist1153-29 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-29")[0].src = this;
+               $("#audioPlayer1153-29")[0].play();
+               $("#playlist1153-29 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-29")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-29 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-29 li").removeClass("current-song");
+                $("#playlist1153-29 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-29")[0].src = $("#playlist1153-29 li a")[currentSong].href;
+                $("#audioPlayer1153-29")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa30">
+<audio src="" controls  id="audioPlayer1153-30" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-30">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-30")[0].src = $("#playlist1153-30 li a")[0];
+            $("#audioPlayer1153-30")[0].play();
+            $("#playlist1153-30 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-30")[0].src = this;
+               $("#audioPlayer1153-30")[0].play();
+               $("#playlist1153-30 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-30")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-30 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-30 li").removeClass("current-song");
+                $("#playlist1153-30 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-30")[0].src = $("#playlist1153-30 li a")[currentSong].href;
+                $("#audioPlayer1153-30")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa31">
+<audio src="" controls  id="audioPlayer1153-31" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-31">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-31")[0].src = $("#playlist1153-31 li a")[0];
+            $("#audioPlayer1153-31")[0].play();
+            $("#playlist1153-31 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-31")[0].src = this;
+               $("#audioPlayer1153-31")[0].play();
+               $("#playlist1153-31 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-31")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-31 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-31 li").removeClass("current-song");
+                $("#playlist1153-31 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-31")[0].src = $("#playlist1153-31 li a")[currentSong].href;
+                $("#audioPlayer1153-31")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa32">
+<audio src="" controls  id="audioPlayer1153-32" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-32">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-32")[0].src = $("#playlist1153-32 li a")[0];
+            $("#audioPlayer1153-32")[0].play();
+            $("#playlist1153-32 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-32")[0].src = this;
+               $("#audioPlayer1153-32")[0].play();
+               $("#playlist1153-32 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-32")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-32 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-32 li").removeClass("current-song");
+                $("#playlist1153-32 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-32")[0].src = $("#playlist1153-32 li a")[currentSong].href;
+                $("#audioPlayer1153-32")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa33">
+<audio src="" controls  id="audioPlayer1153-33" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-33">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-33")[0].src = $("#playlist1153-33 li a")[0];
+            $("#audioPlayer1153-33")[0].play();
+            $("#playlist1153-33 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-33")[0].src = this;
+               $("#audioPlayer1153-33")[0].play();
+               $("#playlist1153-33 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-33")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-33 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-33 li").removeClass("current-song");
+                $("#playlist1153-33 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-33")[0].src = $("#playlist1153-33 li a")[currentSong].href;
+                $("#audioPlayer1153-33")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa34">
+<audio src="" controls  id="audioPlayer1153-34" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-34">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-34")[0].src = $("#playlist1153-34 li a")[0];
+            $("#audioPlayer1153-34")[0].play();
+            $("#playlist1153-34 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-34")[0].src = this;
+               $("#audioPlayer1153-34")[0].play();
+               $("#playlist1153-34 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-34")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-34 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-34 li").removeClass("current-song");
+                $("#playlist1153-34 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-34")[0].src = $("#playlist1153-34 li a")[currentSong].href;
+                $("#audioPlayer1153-34")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa35">
+<audio src="" controls  id="audioPlayer1153-35" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-35">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-35")[0].src = $("#playlist1153-35 li a")[0];
+            $("#audioPlayer1153-35")[0].play();
+            $("#playlist1153-35 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-35")[0].src = this;
+               $("#audioPlayer1153-35")[0].play();
+               $("#playlist1153-35 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-35")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-35 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-35 li").removeClass("current-song");
+                $("#playlist1153-35 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-35")[0].src = $("#playlist1153-35 li a")[currentSong].href;
+                $("#audioPlayer1153-35")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa36">
+<audio src="" controls  id="audioPlayer1153-36" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-36">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-maseczka-l0phu50l.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-36")[0].src = $("#playlist1153-36 li a")[0];
+            $("#audioPlayer1153-36")[0].play();
+            $("#playlist1153-36 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-36")[0].src = this;
+               $("#audioPlayer1153-36")[0].play();
+               $("#playlist1153-36 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-36")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-36 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-36 li").removeClass("current-song");
+                $("#playlist1153-36 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-36")[0].src = $("#playlist1153-36 li a")[currentSong].href;
+                $("#audioPlayer1153-36")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa37">
+<audio src="" controls  id="audioPlayer1153-37" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-37">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/next-stop-l0echtku.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-37")[0].src = $("#playlist1153-37 li a")[0];
+            $("#audioPlayer1153-37")[0].play();
+            $("#playlist1153-37 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-37")[0].src = this;
+               $("#audioPlayer1153-37")[0].play();
+               $("#playlist1153-37 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-37")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-37 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-37 li").removeClass("current-song");
+                $("#playlist1153-37 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-37")[0].src = $("#playlist1153-37 li a")[currentSong].href;
+                $("#audioPlayer1153-37")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa38">
+<audio src="" controls  id="audioPlayer1153-38" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-38">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/nastepny-przystanek-kzvg2mwj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/next-stop-l0echtku.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/stop-on-the-request-l0echty7.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-38")[0].src = $("#playlist1153-38 li a")[0];
+            $("#audioPlayer1153-38")[0].play();
+            $("#playlist1153-38 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-38")[0].src = this;
+               $("#audioPlayer1153-38")[0].play();
+               $("#playlist1153-38 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-38")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-38 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-38 li").removeClass("current-song");
+                $("#playlist1153-38 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-38")[0].src = $("#playlist1153-38 li a")[currentSong].href;
+                $("#audioPlayer1153-38")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa39">
+<audio src="" controls  id="audioPlayer1153-39" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-39">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-39")[0].src = $("#playlist1153-39 li a")[0];
+            $("#audioPlayer1153-39")[0].play();
+            $("#playlist1153-39 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-39")[0].src = this;
+               $("#audioPlayer1153-39")[0].play();
+               $("#playlist1153-39 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-39")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-39 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-39 li").removeClass("current-song");
+                $("#playlist1153-39 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-39")[0].src = $("#playlist1153-39 li a")[currentSong].href;
+                $("#audioPlayer1153-39")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa40">
+<audio src="" controls  id="audioPlayer1153-40" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-40">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Przystanek-kzvg043n.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/stop-on-the-request-l0echty7.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-40")[0].src = $("#playlist1153-40 li a")[0];
+            $("#audioPlayer1153-40")[0].play();
+            $("#playlist1153-40 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-40")[0].src = this;
+               $("#audioPlayer1153-40")[0].play();
+               $("#playlist1153-40 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-40")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-40 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-40 li").removeClass("current-song");
+                $("#playlist1153-40 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-40")[0].src = $("#playlist1153-40 li a")[currentSong].href;
+                $("#audioPlayer1153-40")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa41">
+<audio src="" controls  id="audioPlayer1153-41" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-41">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-41")[0].src = $("#playlist1153-41 li a")[0];
+            $("#audioPlayer1153-41")[0].play();
+            $("#playlist1153-41 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-41")[0].src = this;
+               $("#audioPlayer1153-41")[0].play();
+               $("#playlist1153-41 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-41")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-41 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-41 li").removeClass("current-song");
+                $("#playlist1153-41 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-41")[0].src = $("#playlist1153-41 li a")[currentSong].href;
+                $("#audioPlayer1153-41")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa42">
+<audio src="" controls  id="audioPlayer1153-42" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-42">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/przystanek-na-zadanie-kzvg1osj.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/stop-on-the-request-l0echty7.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-l0piwuup.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-42")[0].src = $("#playlist1153-42 li a")[0];
+            $("#audioPlayer1153-42")[0].play();
+            $("#playlist1153-42 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-42")[0].src = this;
+               $("#audioPlayer1153-42")[0].play();
+               $("#playlist1153-42 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-42")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-42 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-42 li").removeClass("current-song");
+                $("#playlist1153-42 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-42")[0].src = $("#playlist1153-42 li a")[currentSong].href;
+                $("#audioPlayer1153-42")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa43">
+<audio src="" controls  id="audioPlayer1153-43" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-43">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/next-stop-l0echtku.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-43")[0].src = $("#playlist1153-43 li a")[0];
+            $("#audioPlayer1153-43")[0].play();
+            $("#playlist1153-43 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-43")[0].src = this;
+               $("#audioPlayer1153-43")[0].play();
+               $("#playlist1153-43 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-43")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-43 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-43 li").removeClass("current-song");
+                $("#playlist1153-43 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-43")[0].src = $("#playlist1153-43 li a")[currentSong].href;
+                $("#audioPlayer1153-43")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa44">
+<audio src="" controls  id="audioPlayer1153-44" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-44">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/next-stop-l0echtku.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/stop-on-the-request-l0echty7.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-44")[0].src = $("#playlist1153-44 li a")[0];
+            $("#audioPlayer1153-44")[0].play();
+            $("#playlist1153-44 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-44")[0].src = this;
+               $("#audioPlayer1153-44")[0].play();
+               $("#playlist1153-44 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-44")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-44 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-44 li").removeClass("current-song");
+                $("#playlist1153-44 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-44")[0].src = $("#playlist1153-44 li a")[currentSong].href;
+                $("#audioPlayer1153-44")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa45">
+<audio src="" controls  id="audioPlayer1153-45" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-45">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-45")[0].src = $("#playlist1153-45 li a")[0];
+            $("#audioPlayer1153-45")[0].play();
+            $("#playlist1153-45 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-45")[0].src = this;
+               $("#audioPlayer1153-45")[0].play();
+               $("#playlist1153-45 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-45")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-45 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-45 li").removeClass("current-song");
+                $("#playlist1153-45 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-45")[0].src = $("#playlist1153-45 li a")[currentSong].href;
+                $("#audioPlayer1153-45")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa46">
+<audio src="" controls  id="audioPlayer1153-46" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-46">
+<li class="current-song">
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/stop-on-the-request-l0echty7.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Bezpieczenstwo-EN-l0phu4pd.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-46")[0].src = $("#playlist1153-46 li a")[0];
+            $("#audioPlayer1153-46")[0].play();
+            $("#playlist1153-46 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-46")[0].src = this;
+               $("#audioPlayer1153-46")[0].play();
+               $("#playlist1153-46 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-46")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-46 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-46 li").removeClass("current-song");
+                $("#playlist1153-46 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-46")[0].src = $("#playlist1153-46 li a")[currentSong].href;
+                $("#audioPlayer1153-46")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa47">
+</td>
+<td class="aa48">
+</td>
+<td class="aa49">
+</td>
+<td class="aa50">
+</td>
+<td class="aa51">
+</td>
+<td class="aa52">
+</td>
+<td class="aa53">
+</td>
+<td class="aa54">
+</td>
+</tr></table>
+
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+<script>
+const searchInput = document.querySelector("input");
+const li = [...document.querySelectorAll("ul li")];
+const ul = document.querySelector("ul");
+
+const searchWord = e => {
+const currentWord = e.target.value.toUpperCase();
+String.prototype.toLowerCase();
+let result = li;
+result = result.filter(li => li.textContent.toUpperCase().includes(currentWord));
+ul.textContent = '';
+result.forEach(name => ul.appendChild(name));
+}
+
+searchInput.addEventListener('input', searchWord);
+
+</script>
+</body>
+
+
+
+
+
+
+
+
+<style>
+ul {
+list-style-type: none;
+}
+table tbody td[scope=row] {
+ position: sticky;
+ left: 5px;
+ z-index: 9;
+ border: solid 1px black;
+ box-shadow: 3px 3px 10px red;	
+}
+#szukaj {
+position: fixed;
+}
+
+
+td.aa0 {
+border: solid 1px black; 
+width: 300px; 
+text-align: center;
+
+}
+td.aa1 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #ff0000a6;
+}
+td.aa2 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #00d404a6;
+}
+td.aa3 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #001e96a6;
+}
+td.aa4 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #ff6200a6;
+}
+td.aa5 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #de0089a6;
+}
+td.aa6 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #00eaff73;
+}
+td.aa7 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #ffd5008c;
+}
+td.aa8 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #216521a6;
+}
+
+
+td.aa9 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #d0c241a6;
+}
+td.aa10 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #daeb26a6;
+}
+td.aa11 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #aed938a6;
+}
+td.aa12 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #c4ff12bf;
+}
+td.aa13 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #ff4112a6;
+}
+td.aa14 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #3d8600a6;
+}
+td.aa15 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #004007a6;
+}
+td.aa16 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #9affd6a6;
+}
+
+
+
+
+
+td.aa17 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #00c575a6;
+}
+td.aa18 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #00844ea6;
+}
+td.aa19 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #00edf1a6;
+}
+td.aa20 {
+border: solid 1px black; 
+width: 200px; 
+text-align: center;
+background-color: #00708ca6;
+}
+td.aa21 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #1946ffa6;
+}
+td.aa22 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #213692a6;
+}
+td.aa23 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #9548ff8c;
+}
+td.aa24 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #8a00dea6;
+}
+
+
+
+
+
+
+td.aa25 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #590090a6;
+}
+td.aa26 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #f677ffa6;
+}
+td.aa27 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ef0cffa6;
+}
+td.aa28 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #a700b3a6;
+}
+
+
+
+
+td.aa29 {
+border: solid 1px black; 
+width: 140px; 
+text-align: center;
+background-color: #961d81a6;
+}
+td.aa30 {
+border: solid 1px black; 
+width: 140px; 
+text-align: center;
+background-color: #541048a6;
+}
+td.aa31 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #e20078a6;
+}
+td.aa32 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #9a0052a6;
+}
+td.aa33 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #670037a6;
+}
+td.aa34 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #ff084aa6;
+}
+td.aa35 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #c70035a6;
+}
+td.aa36 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #800022a6;
+}
+
+
+
+
+td.aa37 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #ff2d34a6;
+}
+td.aa38 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #f90008a6;
+}
+td.aa39 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #c50006a6;
+}
+td.aa40 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #8c0004a6;
+}
+td.aa41 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #5a0003a6;
+}
+td.aa42 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #9e2800a6;
+}
+td.aa43 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ff954aa6;
+}
+td.aa44 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #d85900a6;
+}
+td.aa45 {
+border: solid 1px black; 
+width: 145px; 
+text-align: center;
+background-color: #a04200a6;
+}
+td.aa46 {
+border: solid 1px black; 
+width: 145px; 
+text-align: center;
+background-color: #6d2d00a6;
+}
+
+
+
+td.aa47 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ffbd61a6;
+}
+td.aa48 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ffa729a6;
+}
+
+td.aa49 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #c77600a6;
+}
+td.aa50 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #a36100a6;
+}
+td.aa51 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #804c00a6;
+}
+td.aa52 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #ffdd63a6;
+}
+td.aa53 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ffd024a6;
+}
+td.aa54 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ebb900a6;
+}
+
+
+
+td.aa111 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #f08e00a6;
+}
+</style>
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<meta charser="UTF-8">
+<body style="width: 10700px;" >
+<input type="text" placeholder="Szukaj przystanku" style="width: 200px;" id="szukaj">
+<br>
+<!--<we style="margin-left: 5440px; ">Przypominamy o obowiązku zasłaniania nosa i ust w pojazdach transportu publicznego oraz zachowywaniu bezpiecznego odstępu od innych osób <l1 style="margin-left: 150px;"></l1>Przypominamy o obowiązku zasłaniania nosa i ust maseczką oraz zachowywaniu bezpiecznego odstępu od innych osób</we>-->
+
+
+
+<table style="margin-top: 10px; margin-left: 10px; border-collapse: collapse; font-family: arial; font-size: 14.5px;"><tr><td style="border: solid 1px black; width: 300px; text-align: center; color: black;">Przystanek</td>
+<!--1--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: red; color: white;">Zjazd do zajezdni Wola - <br>ostatni przystanek na trasie linii: (nazwa) + Trasa zmieniona</td>
+<!--2--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #00D404; color: white;">Zjazd do zajezdni Praga - <br>ostatni przystanek na trasie linii: (nazwa) + Trasa zmieniona</td>
+<!--3--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #001e96ff; color: white;">Zjazd do zajezdni Mokotów - <br>ostatni przystanek na trasie linii: (nazwa) + Trasa zmieniona</td>
+<!--4--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #FF6200; color: white;">Zjazd do zajezdni Żoliborz - <br>ostatni przystanek na trasie linii: (nazwa) + Trasa zmieniona</td>
+<!--5--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #A6008A; color: white;">Zjazd do zajezdni Woronicza - <br>ostatni przystanek na trasie linii: (nazwa) + Trasa zmieniona</td>
+<!--6--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #00EAFF;">Zjazd do zajezdni Kleszczowa - <br>ostatni przystanek na trasie linii: (nazwa) + Trasa zmieniona</td>
+<!--7--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #ffd500ff;">Zjazd do zajezdni Ostrobramska - <br>ostatni przystanek na trasie linii: (nazwa) + Trasa zmieniona</td>
+<!--8--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #216521ff; color: white;">Zjazd do zajezdni Stalowa - <br>ostatni przystanek na trasie linii: (nazwa) + Trasa zmieniona</td>
+<!--9--><td style="border: solid 1px black; width: 230px; text-align: center; background-color: #d0c241ff;">Zjazd do zajezdni ostatni przystanek na trasie linii: (nazwa) + Trasa zmieniona</td>
+
+
+
+
+</tr></table>
+
+
+
+
+<ul>
+<li style="margin-left: -30px">
+<table style="border-collapse: collapse;"><tr>
+<td class="aa0" scope="row" style="background-color: white; color: black; font-family: arial;">
+Bródno-Podgrodzie - 1152
+</td>
+
+<td class="aa1">
+<audio src="" controls id="audioPlayer1152-1" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1152-1">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Wola---ostatni-przystanek-na-trasie-linii-l0od1avs.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1152-1")[0].src = $("#playlist1152-1 li a")[0];
+            $("#audioPlayer1152-1")[0].play();
+            $("#playlist1152-1 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-1")[0].src = this;
+               $("#audioPlayer1152-1")[0].play();
+               $("#playlist1152-1 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-1")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-1 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-1 li").removeClass("current-song");
+                $("#playlist1152-1 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-1")[0].src = $("#playlist1152-1 li a")[currentSong].href;
+                $("#audioPlayer1152-1")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+
+<td class="aa2">
+<audio src="" controls id="audioPlayer1152-2" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1152-2">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Praga---ostatni-przystanek-na-trasie-linii-l0oc0xe9.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1152-2")[0].src = $("#playlist1152-2 li a")[0];
+            $("#audioPlayer1152-2")[0].play();
+            $("#playlist1152-2 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-2")[0].src = this;
+               $("#audioPlayer1152-2")[0].play();
+               $("#playlist1152-2 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-2")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-2 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-2 li").removeClass("current-song");
+                $("#playlist1152-2 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-2")[0].src = $("#playlist1152-2 li a")[currentSong].href;
+                $("#audioPlayer1152-2")[0].play();
+            });
+        }
+		</script>
+		
+		
+
+</td>  
+ 
+<td class="aa3">
+<audio src="" controls id="audioPlayer1152-3" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1152-3">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Mokotow---ostatni-przystanek-na-trasie-linii-l3x4i5ya.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1152-3")[0].src = $("#playlist1152-3 li a")[0];
+            $("#audioPlayer1152-3")[0].play();
+            $("#playlist1152-3 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-3")[0].src = this;
+               $("#audioPlayer1152-3")[0].play();
+               $("#playlist1152-3 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-3")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-3 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-3 li").removeClass("current-song");
+                $("#playlist1152-3 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-3")[0].src = $("#playlist1152-3 li a")[currentSong].href;
+                $("#audioPlayer1152-3")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+<td class="aa4">
+<audio src="" controls  id="audioPlayer1152-4" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-4">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Zoliborz---ostatni-przystanek-na-trasie-linii-l0occ428.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-4")[0].src = $("#playlist1152-4 li a")[0];
+            $("#audioPlayer1152-4")[0].play();
+            $("#playlist1152-4 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-4")[0].src = this;
+               $("#audioPlayer1152-4")[0].play();
+               $("#playlist1152-4 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-4")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-4 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-4 li").removeClass("current-song");
+                $("#playlist1152-4 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-4")[0].src = $("#playlist1152-4 li a")[currentSong].href;
+                $("#audioPlayer1152-4")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa5">
+<audio src="" controls id="audioPlayer1152-5" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1152-5">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Woronicza---ostatni-przystanek-na-trasie-linii-l3x4j6d3.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1152-5")[0].src = $("#playlist1152-5 li a")[0];
+            $("#audioPlayer1152-5")[0].play();
+            $("#playlist1152-5 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-5")[0].src = this;
+               $("#audioPlayer1152-5")[0].play();
+               $("#playlist1152-5 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-5")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-5 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-5 li").removeClass("current-song");
+                $("#playlist1152-5 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-5")[0].src = $("#playlist1152-5 li a")[currentSong].href;
+                $("#audioPlayer1152-5")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+<td class="aa6">
+<audio src="" controls  id="audioPlayer1152-6" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-6">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Kleszczowa---ostatni-przystanek-na-trasie-linii-l0occ2l8.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-6")[0].src = $("#playlist1152-6 li a")[0];
+            $("#audioPlayer1152-6")[0].play();
+            $("#playlist1152-6 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-6")[0].src = this;
+               $("#audioPlayer1152-6")[0].play();
+               $("#playlist1152-6 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-6")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-6 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-6 li").removeClass("current-song");
+                $("#playlist1152-6 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-6")[0].src = $("#playlist1152-6 li a")[currentSong].href;
+                $("#audioPlayer1152-6")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+		
+</td>
+<td class="aa7">
+<audio src="" controls  id="audioPlayer1152-7" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-7">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Ostrobramska---ostatni-przystanek-na-trasie-linii-l0occ3cu.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-7")[0].src = $("#playlist1152-7 li a")[0];
+            $("#audioPlayer1152-7")[0].play();
+            $("#playlist1152-7 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-7")[0].src = this;
+               $("#audioPlayer1152-7")[0].play();
+               $("#playlist1152-7 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-7")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-7 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-7 li").removeClass("current-song");
+                $("#playlist1152-7 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-7")[0].src = $("#playlist1152-7 li a")[currentSong].href;
+                $("#audioPlayer1152-7")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa8">
+
+<audio src="" controls  id="audioPlayer1152-8" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-8">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Stalowa---ostatni-przystanek-na-trasie-linii-l0occ3ps.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-8")[0].src = $("#playlist1152-8 li a")[0];
+            $("#audioPlayer1152-8")[0].play();
+            $("#playlist1152-8 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-8")[0].src = this;
+               $("#audioPlayer1152-8")[0].play();
+               $("#playlist1152-8 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-8")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-8 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-8 li").removeClass("current-song");
+                $("#playlist1152-8 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-8")[0].src = $("#playlist1152-8 li a")[currentSong].href;
+                $("#audioPlayer1152-8")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa9">
+
+<audio src="" controls  id="audioPlayer1152-9" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1152-9">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/uwaga-zjazd-do-zajezdni-ostatni-przystanek-na-trasie-linii-l3x7o380.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Brodno-Podgrodzie-kyrrj0zp.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1152-9")[0].src = $("#playlist1152-9 li a")[0];
+            $("#audioPlayer1152-9")[0].play();
+            $("#playlist1152-9 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1152-9")[0].src = this;
+               $("#audioPlayer1152-9")[0].play();
+               $("#playlist1152-9 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1152-9")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1152-9 li a").length)
+                    currentSong = 0;
+                $("#playlist1152-9 li").removeClass("current-song");
+                $("#playlist1152-9 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1152-9")[0].src = $("#playlist1152-9 li a")[currentSong].href;
+                $("#audioPlayer1152-9")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+</tr></table>
+
+
+</li>
+<li style="margin-left: -30px">
+<table style="border-collapse: collapse;"><tr>
+<td class="aa0" scope="row" style="background-color: white; color: black; font-family: arial;">
+Łojewska - 1153
+</td>
+
+<td class="aa1">
+<audio src="" controls id="audioPlayer1153-1" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1153-1">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Wola---ostatni-przystanek-na-trasie-linii-l0od1avs.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1153-1")[0].src = $("#playlist1153-1 li a")[0];
+            $("#audioPlayer1153-1")[0].play();
+            $("#playlist1153-1 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-1")[0].src = this;
+               $("#audioPlayer1153-1")[0].play();
+               $("#playlist1153-1 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-1")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-1 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-1 li").removeClass("current-song");
+                $("#playlist1153-1 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-1")[0].src = $("#playlist1153-1 li a")[currentSong].href;
+                $("#audioPlayer1153-1")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+
+<td class="aa2">
+<audio src="" controls id="audioPlayer1153-2" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1153-2">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Praga---ostatni-przystanek-na-trasie-linii-l0oc0xe9.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1153-2")[0].src = $("#playlist1153-2 li a")[0];
+            $("#audioPlayer1153-2")[0].play();
+            $("#playlist1153-2 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-2")[0].src = this;
+               $("#audioPlayer1153-2")[0].play();
+               $("#playlist1153-2 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-2")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-2 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-2 li").removeClass("current-song");
+                $("#playlist1153-2 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-2")[0].src = $("#playlist1153-2 li a")[currentSong].href;
+                $("#audioPlayer1153-2")[0].play();
+            });
+        }
+		</script>
+		
+		
+
+</td>  
+ 
+<td class="aa3">
+<audio src="" controls id="audioPlayer1153-3" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1153-3">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Mokotow---ostatni-przystanek-na-trasie-linii-l3x4i5ya.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1153-3")[0].src = $("#playlist1153-3 li a")[0];
+            $("#audioPlayer1153-3")[0].play();
+            $("#playlist1153-3 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-3")[0].src = this;
+               $("#audioPlayer1153-3")[0].play();
+               $("#playlist1153-3 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-3")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-3 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-3 li").removeClass("current-song");
+                $("#playlist1153-3 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-3")[0].src = $("#playlist1153-3 li a")[currentSong].href;
+                $("#audioPlayer1153-3")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+<td class="aa4">
+<audio src="" controls  id="audioPlayer1153-4" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-4">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Zoliborz---ostatni-przystanek-na-trasie-linii-l0occ428.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-4")[0].src = $("#playlist1153-4 li a")[0];
+            $("#audioPlayer1153-4")[0].play();
+            $("#playlist1153-4 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-4")[0].src = this;
+               $("#audioPlayer1153-4")[0].play();
+               $("#playlist1153-4 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-4")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-4 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-4 li").removeClass("current-song");
+                $("#playlist1153-4 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-4")[0].src = $("#playlist1153-4 li a")[currentSong].href;
+                $("#audioPlayer1153-4")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa5">
+<audio src="" controls id="audioPlayer1153-5" style="width:100px; height: 22px; padding-top: 3px; "></audio>
+<ul id="playlist1153-5">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Woronicza---ostatni-przystanek-na-trasie-linii-l3x4j6d3.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer1153-5")[0].src = $("#playlist1153-5 li a")[0];
+            $("#audioPlayer1153-5")[0].play();
+            $("#playlist1153-5 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-5")[0].src = this;
+               $("#audioPlayer1153-5")[0].play();
+               $("#playlist1153-5 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-5")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-5 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-5 li").removeClass("current-song");
+                $("#playlist1153-5 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-5")[0].src = $("#playlist1153-5 li a")[currentSong].href;
+                $("#audioPlayer1153-5")[0].play();
+            });
+        }
+		</script>
+		
+		
+</td>
+<td class="aa6">
+<audio src="" controls  id="audioPlayer1153-6" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-6">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Kleszczowa---ostatni-przystanek-na-trasie-linii-l0occ2l8.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-6")[0].src = $("#playlist1153-6 li a")[0];
+            $("#audioPlayer1153-6")[0].play();
+            $("#playlist1153-6 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-6")[0].src = this;
+               $("#audioPlayer1153-6")[0].play();
+               $("#playlist1153-6 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-6")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-6 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-6 li").removeClass("current-song");
+                $("#playlist1153-6 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-6")[0].src = $("#playlist1153-6 li a")[currentSong].href;
+                $("#audioPlayer1153-6")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+		
+</td>
+<td class="aa7">
+<audio src="" controls  id="audioPlayer1153-7" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-7">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Ostrobramska---ostatni-przystanek-na-trasie-linii-l0occ3cu.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-7")[0].src = $("#playlist1153-7 li a")[0];
+            $("#audioPlayer1153-7")[0].play();
+            $("#playlist1153-7 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-7")[0].src = this;
+               $("#audioPlayer1153-7")[0].play();
+               $("#playlist1153-7 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-7")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-7 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-7 li").removeClass("current-song");
+                $("#playlist1153-7 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-7")[0].src = $("#playlist1153-7 li a")[currentSong].href;
+                $("#audioPlayer1153-7")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+<td class="aa8">
+
+<audio src="" controls  id="audioPlayer1153-8" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-8">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-zjazd-do-zajezdni-Stalowa---ostatni-przystanek-na-trasie-linii-l0occ3ps.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-8")[0].src = $("#playlist1153-8 li a")[0];
+            $("#audioPlayer1153-8")[0].play();
+            $("#playlist1153-8 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-8")[0].src = this;
+               $("#audioPlayer1153-8")[0].play();
+               $("#playlist1153-8 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-8")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-8 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-8 li").removeClass("current-song");
+                $("#playlist1153-8 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-8")[0].src = $("#playlist1153-8 li a")[currentSong].href;
+                $("#audioPlayer1153-8")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+
+<td class="aa9">
+
+<audio src="" controls  id="audioPlayer1153-9" style="width:100px; height: 22px; padding-top: 3px; " ></audio>
+<ul id="playlist1153-9">
+<li class="current-song"><a href="https://vqfxax.webwave.dev/lib/vqfxax/uwaga-zjazd-do-zajezdni-ostatni-przystanek-na-trasie-linii-l3x7o380.mp3" ></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Lojewska-kyrrj2m2.mp3"></a></li>
+<li><a href="https://vqfxax.webwave.dev/lib/vqfxax/Uwaga-trasa-zmieniona-l3x74v0z.mp3"></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+   	function audioPlayer(){
+            var currentSong = 0;
+			
+            $("#audioPlayer1153-9")[0].src = $("#playlist1153-9 li a")[0];
+            $("#audioPlayer1153-9")[0].play();
+            $("#playlist1153-9 li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer1153-9")[0].src = this;
+               $("#audioPlayer1153-9")[0].play();
+               $("#playlist1153-9 li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            $("#audioPlayer1153-9")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist1153-9 li a").length)
+                    currentSong = 0;
+                $("#playlist1153-9 li").removeClass("current-song");
+                $("#playlist1153-9 li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer1153-9")[0].src = $("#playlist1153-9 li a")[currentSong].href;
+                $("#audioPlayer1153-9")[0].play();
+				
+            });
+			
+        
+		}
+		</script>
+</td>
+</tr></table>
+
+
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+<script>
+const searchInput = document.querySelector("input");
+const li = [...document.querySelectorAll("ul li")];
+const ul = document.querySelector("ul");
+
+const searchWord = e => {
+const currentWord = e.target.value.toUpperCase();
+String.prototype.toLowerCase();
+let result = li;
+result = result.filter(li => li.textContent.toUpperCase().includes(currentWord));
+ul.textContent = '';
+result.forEach(name => ul.appendChild(name));
+}
+
+searchInput.addEventListener('input', searchWord);
+
+</script>
+</body>
+
+
+
+
+
+
+
+
+<style>
+ul {
+list-style-type: none;
+}
+table tbody td[scope=row] {
+ position: sticky;
+ left: 5px;
+ z-index: 9;
+ border: solid 1px black;
+ box-shadow: 3px 3px 10px red;	
+}
+#szukaj {
+position: fixed;
+}
+
+
+td.aa0 {
+border: solid 1px black; 
+width: 300px; 
+text-align: center;
+
+}
+td.aa1 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #ff0000a6;
+}
+td.aa2 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #00d404a6;
+}
+td.aa3 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #001e96a6;
+}
+td.aa4 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #ff6200a6;
+}
+td.aa5 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #de0089a6;
+}
+td.aa6 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #00eaff73;
+}
+td.aa7 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #ffd5008c;
+}
+td.aa8 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #216521a6;
+}
+td.aa9 {
+border: solid 1px black; 
+width: 230px; 
+text-align: center;
+background-color: #d0c241a6;
+}
+
+
+
+td.aa10 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #daeb26a6;
+}
+td.aa11 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #aed938a6;
+}
+td.aa12 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #c4ff12bf;
+}
+td.aa13 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #ff4112a6;
+}
+td.aa14 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #3d8600a6;
+}
+td.aa15 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #004007a6;
+}
+td.aa16 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #9affd6a6;
+}
+
+
+
+
+
+td.aa17 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #00c575a6;
+}
+td.aa18 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #00844ea6;
+}
+td.aa19 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #00edf1a6;
+}
+td.aa20 {
+border: solid 1px black; 
+width: 200px; 
+text-align: center;
+background-color: #00708ca6;
+}
+td.aa21 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #1946ffa6;
+}
+td.aa22 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #213692a6;
+}
+td.aa23 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #9548ff8c;
+}
+td.aa24 {
+border: solid 1px black; 
+width: 190px; 
+text-align: center;
+background-color: #8a00dea6;
+}
+
+
+
+
+
+
+td.aa25 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #590090a6;
+}
+td.aa26 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #f677ffa6;
+}
+td.aa27 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ef0cffa6;
+}
+td.aa28 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #a700b3a6;
+}
+
+
+
+
+td.aa29 {
+border: solid 1px black; 
+width: 140px; 
+text-align: center;
+background-color: #961d81a6;
+}
+td.aa30 {
+border: solid 1px black; 
+width: 140px; 
+text-align: center;
+background-color: #541048a6;
+}
+td.aa31 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #e20078a6;
+}
+td.aa32 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #9a0052a6;
+}
+td.aa33 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #670037a6;
+}
+td.aa34 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #ff084aa6;
+}
+td.aa35 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #c70035a6;
+}
+td.aa36 {
+border: solid 1px black; 
+width: 180px; 
+text-align: center;
+background-color: #800022a6;
+}
+
+
+
+
+td.aa37 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #ff2d34a6;
+}
+td.aa38 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #f90008a6;
+}
+td.aa39 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #c50006a6;
+}
+td.aa40 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #8c0004a6;
+}
+td.aa41 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #5a0003a6;
+}
+td.aa42 {
+border: solid 1px black; 
+width: 170px; 
+text-align: center;
+background-color: #9e2800a6;
+}
+td.aa43 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ff954aa6;
+}
+td.aa44 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #d85900a6;
+}
+td.aa45 {
+border: solid 1px black; 
+width: 145px; 
+text-align: center;
+background-color: #a04200a6;
+}
+td.aa46 {
+border: solid 1px black; 
+width: 145px; 
+text-align: center;
+background-color: #6d2d00a6;
+}
+
+
+
+td.aa47 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ffbd61a6;
+}
+td.aa48 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ffa729a6;
+}
+
+
+td.aa49 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #f08e00a6;
+}
+td.aa50 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #c77600a6;
+}
+td.aa51 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #a36100a6;
+}
+td.aa52 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #804c00a6;
+}
+td.aa53 {
+border: solid 1px black; 
+width: 210px; 
+text-align: center;
+background-color: #ffdd63a6;
+}
+td.aa54 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ffd024a6;
+}
+td.aa55 {
+border: solid 1px black; 
+width: 150px; 
+text-align: center;
+background-color: #ebb900a6;
+}
+
+</style>
+
+
+
+
+
+
+
+</html>
