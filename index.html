@@ -10,7 +10,7 @@
             justify-content: space-between;
         }
         .select-wrapper {
-		  width: 300px;
+            width: 300px;
         }
         .select-wrapper select {
             display: block;
@@ -22,14 +22,11 @@
             width: 100%;
         }
         .select-wrapper option {
-		    white-space: nowrap;
+            white-space: nowrap;
             overflow: visible;
         }
-		
         .scrolling-text {
-                       
             animation: scrollText 15s linear infinite;
-           
         }
         @keyframes scrollText {
             0% {
@@ -39,27 +36,20 @@
                 transform: translateX(-110%);
             }
         }
-		
-		
-		
-		.scrolling-option-1 {
+        .scrolling-option-1 {
             animation: scrollOptionText1 10s linear infinite;
         }
-        
         @keyframes scrollOptionText1 {
             0% { transform: translateX(135%);
             }
             100% { transform: translateX(-135%);
             }
         }
-		
-		
-		
-		.scrolling-option-2 {
+        .scrolling-option-2 {
             animation: scrollOptionText2 21s linear infinite;
         }
         @keyframes scrollOptionText2 {
-            0% {  transform: translateX(110%);
+            0% { transform: translateX(110%);
             }
             100% { transform: translateX(-200%);
             }
@@ -79,7 +69,6 @@
             vertical-align: top;
             border: 0px solid black;
         }
-        
         #playlist {
             margin-top: 10px;
             list-style-type: none;
@@ -95,9 +84,9 @@
             overflow: hidden;
             position: relative;
             height: 30px;
-			line-height: 30px;
-			color: black;
-			font-weight: 700;
+            line-height: 30px;
+            color: black;
+            font-weight: 700;
         }
         #playlist li span {
             display: inline-block;
@@ -105,7 +94,10 @@
             white-space: nowrap;
             will-change: transform;
         }
-
+        #playlist li button {
+            float: right;
+            margin-left: 10px;
+        }
         h1 {
             font-family: Arial;
             text-align: center;
@@ -131,81 +123,73 @@
             background-color: rgb(54, 0, 155);
         }
         .str2 {
-		font-size: 17px;
-		padding-top: 5px;
-		font-weight: 800;
+            font-size: 17px;
+            padding-top: 5px;
+            font-weight: 800;
             border-bottom: solid 3px #00CCFF;
         }
         .str3 {
-		
             font-size: 15px;
             font-weight: 900;
             text-decoration: none;
         }
-		     
         .str3:hover {
-		    display: inline-block;
-		    color: white;
+            display: inline-block;
+            color: white;
             background-color: rgb(54, 0, 155);
-		   }
-		   .str3a {
-		background-color: red;
+        }
+        .str3a {
+            background-color: red;
             font-size: 15px;
             font-weight: 900;
             text-decoration: none;
         }
-		     
         .str3a:hover {
-		    display: inline-block;
-		    color: white;
+            display: inline-block;
+            color: white;
             background-color: rgb(54, 0, 155);
-		   }
-		    .str3b {
-		background-color: #7fb2d8ff;
+        }
+        .str3b {
+            background-color: #7fb2d8ff;
             font-size: 15px;
             font-weight: 900;
             text-decoration: none;
         }
-		     
         .str3a:hover {
-		    display: inline-block;
-		    color: white;
+            display: inline-block;
+            color: white;
             background-color: rgb(54, 0, 155);
-		   }
-		.str4 {
-		
+        }
+        .str4 {
             font-size: 15px;
             font-weight: 900;
             text-decoration: none;
         }
-		     
         .str4:hover {
-		    display: inline-block;
-		    color: white;
+            display: inline-block;
+            color: white;
             background-color: rgb(54, 0, 155);
-		   }
-		   
+        }
         .square {
-  width:100px;
-  height: 20px;
-  background-color: red;
-  float: left;
-}
-.square1 {
-  width:100px;
-  height: 20px;
-  background-color: #7fb2d8ff;
-  float: left;
-}
+            width:100px;
+            height: 20px;
+            background-color: red;
+            float: left;
+        }
+        .square1 {
+            width:100px;
+            height: 20px;
+            background-color: #7fb2d8ff;
+            float: left;
+        }
     </style>
 </head>
 <body style="font-family: Arial;">
     <h1>Zapowiedzi głosowe</h1>
-	<a style="float: right; font-size: 8px;">Zapowiedzi pochodzą z warszawskich Tramwajów, Autobusów oraz Pociągów Metra.</a>
-	<div class="square" style="text-align: center;">(BZ)</div>&nbsp; - Brak Zapowiedzi
-	<p style="margin-block-start: 4px; margin-block-end: 4px;">
-	<div class="square1" style="text-align: center;">(M)</div>&nbsp; - Stacja Metra<br>
-	
+    <a style="float: right; font-size: 8px;">Zapowiedzi pochodzą z warszawskich Tramwajów, Autobusów oraz Pociągów Metra.</a>
+    <div class="square" style="text-align: center;">(BZ)</div>&nbsp; - Brak Zapowiedzi
+    <p style="margin-block-start: 4px; margin-block-end: 4px;">
+    <div class="square1" style="text-align: center;">(M)</div>&nbsp; - Stacja Metra<br>
     <table>
         <tr>
             <td style="width: 850px;">
@@ -216,7 +200,7 @@
                         <span id="selectedSound1" class="selected-sound str2"></span>
                         <br><a onclick="addSound('soundSelect1')" class="str1">Dodaj do listy</a>
                         <select id="soundSelect1" size="3075" onchange="selectSound(event, 'soundSelect1')">
-<option class="str3" value="1. Praskiego Pułku.mp3">2293 - 1.PRASKIEGO PUŁKU</option>
+                           <option class="str3" value="1. Praskiego Pułku.mp3">2293 - 1.PRASKIEGO PUŁKU</option>
 <option class="str3" value="1 Sierpnia.mp3">4009 - 1 SIERPNIA</option>
 <option class="str3" value="11 Listopada.mp3">6658 - 11 LISTOPADA</option>
 <option class="str3" value="11 Listopada.mp3">1848 - 11 LISTOPADA</option>
@@ -266,7 +250,7 @@
 <option class="str3" value="Aleja Róż.mp3">1701 - ALEJA RÓŻ</option>
 <option class="str3" value="Aleksandrów.mp3">2222 - ALEKSANDRÓW</option>
 <option class="str3" value="Aleksandrów.mp3">1267 - ALEKSANDRÓW</option>
-<option class="str3" value="Algierska.mp3">2204 - ALGIERSKA</option>
+<option class="str3a" value="Cisza 1 sekunda.mp3">2204 - ALGIERSKA</option>
 <option class="str3" value="Alpejska-Instytut.mp3">2025 - ALPEJSKA-INSTYTUT</option>
 <option class="str3" value="Aluzyjna.mp3">1366 - ALUZYJNA</option>
 <option class="str3" value="Ambaras.mp3">1108 - AMBARAS</option>
@@ -283,7 +267,7 @@
 <option class="str3" value="Antoniewska.mp3">3075 - ANTONIEWSKA</option>
 <option class="str3" value="Anusin.mp3">3855 - ANUSIN</option>
 <option class="str3" value="Anusinek.mp3">1416 - ANUSINEK</option>
-<option class="str3" value="Arabska.mp3">2203 - ARABSKA</option>
+<option class="str3a" value="Cisza 1 sekunda.mp3">2203 - ARABSKA (BZ)</option>
 <option class="str3" value="Arbuzowa.mp3">3099 - ARBUZOWA</option>
 <option class="str3" value="Archimedes.mp3">5054 - ARCHIMEDESA</option>
 <option class="str3" value="Arena Legionowo.mp3">1184 - ARENA LEGIONOWO</option>
@@ -529,10 +513,10 @@
 <option class="str3" value="Cicha.mp3">6665 - CICHA</option>
 <option class="str3" value="Cicha.mp3">2463 - CICHA</option>
 <option class="str3" value="Cicha.mp3">2352 - CICHA</option>
-<option class="str3" value="Cieciszew.mp3">CISZEW</option>
-<option class="str3a" value="Cisza 1 sekunda.mp3">3953 - CIECISZEW-LAS (BZ)</option>
+<option class="str3" value="Cieciszew.mp3">CIECISZEW</option>
+<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cieciszew-Las.mp3">3953 - CIECISZEW-LAS</option>
 <option class="str3" value="Cieciszew-OSP.mp3">3871 - CIECISZEW-OSP</option>
-<option class="str3a" value="Cisza 1 sekunda.mp3">3991 - CIECISZEW-STARY KOŚCIÓŁ (BZ)</option>
+<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cieciszew-Stary Kościół.mp3">3991 - CIECISZEW-STARY KOŚCIÓŁ</option>
 <option class="str3" value="Ciećwierza.mp3">6106 - CIEĆWIERZA</option>
 <option class="str3a" value="Cisza 1 sekunda.mp3">2481 - CIEPLARNIANA (BZ)</option>
 <option class="str3" value="Ciepłownia Kawęczyn.mp3">2077 - CIEPŁOWNIA KAWĘCZYN</option>
@@ -770,7 +754,7 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-2/Falenty Duże.mp3">4164 - FALENTY DUŻE</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-2/Falenty Nowe.mp3">4163 - FALENTY NOWE</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-2/Falenty-Osiedle.mp3">4162 - FALENTY-OSIEDLE</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-2/Cisza 1 sekunda.mp3">4161 - FALENTY-PAŁAC (BZ)</option>
+<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Falenty-Pałac.mp3">4161 - FALENTY-PAŁAC</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-2/Faradaya.mp3">1090 - FARADAYA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-2/Farbiarska.mp3">3395 - FARBIARSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-2/Felińskiego.mp3">6197 - FELIŃSKIEGO</option>
@@ -1810,6 +1794,7 @@
 <option class="str3a" value="https://kmwawa.github.io/zapowiedzi-3/Cisza 1 sekunda.mp3">1694 - OPOLSKA (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Oraczy.mp3">2073 - ORACZY</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Orchowiecka.mp3">1112 - ORCHOWIECKA</option>
+<option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Ordona.mp3">ORDONA</option>
 <option class="str3a" value="https://kmwawa.github.io/zapowiedzi-3/Cisza 1 sekunda.mp3">5044 - ORDONA-WSA (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Ordynacka.mp3">7049 - ORDYNACKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Orężna.mp3">3802 - ORĘŻNA</option>
@@ -1993,8 +1978,8 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Pięciolinii.mp3">3130 - PIĘCIOLINII</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Piękna.mp3">7038 - PIĘKNA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Pijarska.mp3">3369 - PIJARSKA</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-3/Cisza 1 sekunda.mp3">3460 - PIJARSKA-BASEN (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-3/Cisza 1 sekunda.mp3">3455 - PIJARSKA-OSIEDLE (BZ)</option>
+<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Pijarska-Basen.mp3">3460 - PIJARSKA-BASEN</option>
+<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Pijarska-Osiedle.mp3">3455 - PIJARSKA-OSIEDLE</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Pilaszków.mp3">5180 - PILASZKÓW</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Pilawa.mp3">3739 - PILAWA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Pilcha.mp3">6629 - PILCHA</option>
@@ -2062,7 +2047,7 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/PKP Zalesie Górne.mp3">3842 - PKP ZALESIE GÓRNE</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/PKP Zielonka.mp3">1972 - PKP ZIELONKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/PKP Zielonka (Zosinek).mp3">1982 - PKP ZIELONKA (ZOSINEK)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-3/Cisza 1 sekunda.mp3">1979 - PKP ZIELONKA BANKOWA (BZ)</option>
+<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/PKP Zielonka Bankowa.mp3">1979 - PKP ZIELONKA BANKOWA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/PKP Żerań.mp3">1095 - PKP ŻERAŃ</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/PKP Żwirki i Wigury.mp3">4348 - PKP ŻWIRKI I WIGURY</option>
 <!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Cisza 1 sekunda.mp3">R-3699 - PKS GRODZISK - KLEMENTOWICKA</option>-->
@@ -2221,7 +2206,7 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Powstańców.mp3">1209 - POWSTAŃCÓW</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Powstańców Warszawy.mp3">3322 - POWSTAŃCÓW WARSZAWY</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Powstańców Warszawy.mp3">2802 - POWSTAŃCÓW WARSZAWY</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-3/Cisza 1 sekunda.mp3">1495 - POWSTAŃCÓW-PARK (BZ)</option>
+<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Powstańców-Park.mp3">1495 - POWSTAŃCÓW-PARK</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Powstańców-Las.mp3">POWSTAŃCÓW-LAS</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Poziomkowa.mp3">6661 - POZIOMKOWA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Poziomkowa.mp3">1436 - POZIOMKOWA</option>
@@ -2402,7 +2387,7 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Runów Osada II.mp3">3807 - RUNÓW OSADA II</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Rusiec.mp3">4288 - RUSIEC</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Ruskowy Bród.mp3">1294 - RUSKOWY BRÓD</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-3/Cisza 1 sekunda.mp3">1684 - RUSKOWY BRÓD-SZKOŁA (BZ)</option>
+<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Ruskowy Bród-Szkoła.mp3">1684 - RUSKOWY BRÓD-SZKOŁA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Rybałtów.mp3">3284 - RYBAŁTÓW</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Rybie.mp3">4167 - RYBIE</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Rybna.mp3">4021 - RYBNA</option>
@@ -2438,7 +2423,7 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Samsonowska.mp3">3414 - SAMSONOWSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Sanguszki.mp3">7056 - SANGUSZKI</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Sanktuarium.mp3">5130 - SANKTUARIUM</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-3/Cisza 1 sekunda.mp3">1679 - SANKTUARIUM JANA PAWŁA II (BZ)</option>
+<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Sanktuarium Jana Pawła II.mp3">1679 - SANKTUARIUM JANA PAWŁA II</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Santocka.mp3">3083 - SANTOCKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Sapiehy.mp3">6816 - SAPIEHY</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-3/Sarabandy.mp3">3397 - SARABANDY</option>
@@ -2866,7 +2851,7 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Urząd Statystyczny.mp3">4304 - URZĄD STATYSTYCZNY</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Urzut.mp3">4289 - URZUT</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Utrata.mp3">1043 - UTRATA</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1044 - UTRATA-MAGAZYNY (BZ)</option>
+<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Utrata-Mahazyny.mp3">1044 - UTRATA-MAGAZYNY</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Utrata Urząd-Celny.mp3">UTRATA-URZĄD CELNY</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Uwieliny-Szkoła.mp3">3899 - UWIELINY-SZKOŁA</option>
 <option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1697 - VERDIEGO (BZ)</option>
@@ -2891,62 +2876,62 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Warecka.mp3">2462 - WARECKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Warmińska.mp3">1567 - WARMIŃSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Warneńska.mp3">3095 - WARNEŃSKA</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4913 - WARSZAWA AL.JEROZOLIMSKIE (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2905 - WARSZAWA ANIN (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">7900 - WARSZAWA CENTRALNA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1906 - WARSZAWA CHOSZCZÓWKA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">3902 - WARSZAWA DAWIDY (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2909 - WARSZAWA FALENICA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">7903 - WARSZAWA GDAŃSKA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">5909 - WARSZAWA GŁÓWNA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2903 - WARSZAWA GOCŁAWEK (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4922 - WARSZAWA GOŁĄBKI (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2921 - WARSZAWA GROCHÓW (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">3903 - WARSZAWA JEZIORKI (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">5907 - WARSZAWA KOŁO (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4919 - WARSZAWA LOTNISKO CHOPINA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2908 - WARSZAWA MIEDZESZYN (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2906 - WARSZAWA MIĘDZYLESIE (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">5904 - WARSZAWA MŁYNÓW (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2920 - WARSZAWA MOKRY ŁUG (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4901 - WARSZAWA OCHOTA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4911 - WARSZAWA OCHOTA WKD (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4930 - WARSZAWA ODOLANY (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4920 - WARSZAWA OKĘCIE (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2902 - WARSZAWA OLSZYNKA GROCHOWSKA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1905 - WARSZAWA PŁUDY (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">5908 - WARSZAWA POWĄZKI (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">7902 - WARSZAWA POWIŚLE (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1902 - WARSZAWA PRAGA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2907 - WARSZAWA RADOŚĆ (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4917 - WARSZAWA RAKOWIEC (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4914 - WARSZAWA RAKÓW (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4912 - WARSZAWA REDUTA ORDONA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2910 - WARSZAWA REMBERTÓW (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4915 - WARSZAWA SALOMEA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">3901 - WARSZAWA SŁUŻEWIEC (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2901 - WARSZAWA STADION</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">7901 - WARSZAWA ŚRÓDMIEŚCIE (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">7911 - WARSZAWA ŚRÓDMIEŚCIE WKD (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1928 - WARSZAWA TARGÓWEK (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1903 - WARSZAWA TORUŃSKA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4903 - WARSZAWA URSUS (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4921 - WARSZAWA URSUS PŁN. (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4923 - WARSZAWA URSUS-NIEDŹWIADEK (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2904 - WARSZAWA WAWER (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2911 - WARSZAWA WESOŁA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1920 - WARSZAWA WILEŃSKA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4902 - WARSZAWA WŁOCHY (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">5903 - WARSZAWA WOLA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2912 - WARSZAWA WOLA GRZYBOWSKA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2900 - WARSZAWA WSCHODNIA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4900 - WARSZAWA ZACHODNIA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">5902 - WARSZAWA ZACHODNIA (PERON 9) (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4910 - WARSZAWA ZACHODNIA WKD (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1927 - WARSZAWA ZACISZE-WILNO (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1901 - WARSZAWA ZOO (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1904 - WARSZAWA ŻERAŃ (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">4918 - WARSZAWA ŻWIRKI I WIGURY (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4913 - WARSZAWA AL.JEROZOLIMSKIE (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2905 - WARSZAWA ANIN (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">7900 - WARSZAWA CENTRALNA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1906 - WARSZAWA CHOSZCZÓWKA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">3902 - WARSZAWA DAWIDY (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2909 - WARSZAWA FALENICA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">7903 - WARSZAWA GDAŃSKA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">5909 - WARSZAWA GŁÓWNA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2903 - WARSZAWA GOCŁAWEK (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4922 - WARSZAWA GOŁĄBKI (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2921 - WARSZAWA GROCHÓW (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">3903 - WARSZAWA JEZIORKI (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">5907 - WARSZAWA KOŁO (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4919 - WARSZAWA LOTNISKO CHOPINA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2908 - WARSZAWA MIEDZESZYN (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2906 - WARSZAWA MIĘDZYLESIE (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">5904 - WARSZAWA MŁYNÓW (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2920 - WARSZAWA MOKRY ŁUG (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4901 - WARSZAWA OCHOTA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4911 - WARSZAWA OCHOTA WKD (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4930 - WARSZAWA ODOLANY (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4920 - WARSZAWA OKĘCIE (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2902 - WARSZAWA OLSZYNKA GROCHOWSKA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1905 - WARSZAWA PŁUDY (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">5908 - WARSZAWA POWĄZKI (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">7902 - WARSZAWA POWIŚLE (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1902 - WARSZAWA PRAGA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2907 - WARSZAWA RADOŚĆ (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4917 - WARSZAWA RAKOWIEC (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4914 - WARSZAWA RAKÓW (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4912 - WARSZAWA REDUTA ORDONA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2910 - WARSZAWA REMBERTÓW (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4915 - WARSZAWA SALOMEA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">3901 - WARSZAWA SŁUŻEWIEC (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2901 - WARSZAWA STADION</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">7901 - WARSZAWA ŚRÓDMIEŚCIE (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">7911 - WARSZAWA ŚRÓDMIEŚCIE WKD (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1928 - WARSZAWA TARGÓWEK (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1903 - WARSZAWA TORUŃSKA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4903 - WARSZAWA URSUS (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4921 - WARSZAWA URSUS PŁN. (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4923 - WARSZAWA URSUS-NIEDŹWIADEK (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2904 - WARSZAWA WAWER (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2911 - WARSZAWA WESOŁA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1920 - WARSZAWA WILEŃSKA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4902 - WARSZAWA WŁOCHY (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">5903 - WARSZAWA WOLA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2912 - WARSZAWA WOLA GRZYBOWSKA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2900 - WARSZAWA WSCHODNIA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4900 - WARSZAWA ZACHODNIA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">5902 - WARSZAWA ZACHODNIA (PERON 9) (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4910 - WARSZAWA ZACHODNIA WKD (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1927 - WARSZAWA ZACISZE-WILNO (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1901 - WARSZAWA ZOO (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1904 - WARSZAWA ŻERAŃ (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">4918 - WARSZAWA ŻWIRKI I WIGURY (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Warszawska.mp3">6186 - WARSZAWSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Warszawska.mp3">6164 - WARSZAWSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Warszawska.mp3">4307 - WARSZAWSKA</option>
@@ -3031,7 +3016,7 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Wilkowiecka.mp3">1200 - WILKOWIECKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Willowa.mp3">4802 - WILLOWA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Willowa.mp3">1783 - WILLOWA</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">5176 - WILLOWA ALEJA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">5176 - WILLOWA ALEJA (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Wilsona.mp3">2832 - WILSONA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Wincentów I.mp3">3779 - WINCENTÓW I</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Wincentów II.mp3">3780 - WINCENTÓW II</option>
@@ -3085,8 +3070,8 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Wolska II.mp3">1991 - WOLSKA II</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Wolska III.mp3">1899 - WOLSKA III</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Wołodyjowskiego.mp3">6147 - WOŁODYJOWSKIEGO</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1924 - WOŁOMIN (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1925 - WOŁOMIN SŁONECZNA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1924 - WOŁOMIN (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1925 - WOŁOMIN SŁONECZNA (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Wołomińska.mp3">1160 - WOŁOMIŃSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Wołoska.mp3">3239 - WOŁOSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Wołoska-Szpital.mp3">3238 - WOŁOSKA-SZPITAL</option>
@@ -3150,15 +3135,15 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zachęta.mp3">7028 - ZACHĘTA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zachodnia.mp3">6142 - ZACHODNIA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zachodnia.mp3">3756 - ZACHODNIA</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">5214 - ZACHODZĄCEGO SŁOŃCA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">5212 - ZACHODZĄCEGO SŁOŃCA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">5214 - ZACHODZĄCEGO SŁOŃCA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">5212 - ZACHODZĄCEGO SŁOŃCA (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zacisze.mp3">1606 - Zacisze</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zadębie.mp3">3955 - ZADĘBIE</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zagłoby.mp3">6815 - ZAGŁOBY</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zagłoby.mp3">5147 - ZAGŁOBY</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1926 - ZAGOŚCINIEC (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1926 - ZAGOŚCINIEC (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zagościniec-Szkoła.mp3">1771 - ZAGOŚCINIEC-SZKOŁA</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">3705 - ZAGÓRNA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">3705 - ZAGÓRNA (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zagórzańska.mp3">2376 - ZAGÓRZAŃSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zagórze-Sanatorium.mp3">2299 - ZAGÓRZE-SANATORIUM</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zajezdnia Kleszczowa.mp3">4090 - ZAJEZDNIA KLESZCZOWA</option>
@@ -3178,7 +3163,7 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zalasek.mp3">1708 - ZALASEK</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zalesie.mp3">6199 - ZALESIE</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zalesie Dolne.mp3">3170 - ZALESIE DOLNE</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">3906 - ZALESIE GÓRNE (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">3906 - ZALESIE GÓRNE (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zalesinek.mp3">3171 - ZALESINEK</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zaleśna.mp3">3837 - ZALEŚNA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Załubice-Poczta.mp3">1445 - ZAŁUBICE-POCZTA</option>
@@ -3202,7 +3187,7 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zawodne.mp3">3974 - ZAWODNE</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zawodowa.mp3">2090 - ZAWODOWA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zawodzie.mp3">3082 - ZAWODZIE</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1918 - ZĄBKI (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1918 - ZĄBKI (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Ząbkowska.mp3">1977 - ZĄBKOWSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Ząbkowska.mp3">1002 - ZĄBKOWSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zbaraska.mp3">2127 - ZBARASKA</option>
@@ -3213,32 +3198,32 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zdrojowa.mp3">2457 - ZDROJOWA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zdziarska.mp3">1347 - ZDZIARSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zdziarska-Kanał.mp3">1225 - ZDZIARSKA-KANAŁ</option>
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-1199 - ZEA KLESZCZOWA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-1100 - ZEA KLESZCZOWA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-1099 - ZEA OSTROBRAMSKA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-1098 - ZEA OSTROBRAMSKA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-1090 - ZEA OSTROBRAMSKA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-1000 - ZEA OSTROBRAMSKA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-1399 - ZEA STALOWA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-1300 - ZEA STALOWA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-0799 - ZEA WORONICZA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-0700 - ZEA WORONICZA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-1199 - ZEA KLESZCZOWA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-1100 - ZEA KLESZCZOWA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-1099 - ZEA OSTROBRAMSKA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-1098 - ZEA OSTROBRAMSKA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-1090 - ZEA OSTROBRAMSKA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-1000 - ZEA OSTROBRAMSKA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-1399 - ZEA STALOWA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-1300 - ZEA STALOWA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-0799 - ZEA WORONICZA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-0700 - ZEA WORONICZA</option>-->
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zegarynki.mp3">1109 - ZEGARYNKI</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zegrze Płd..mp3">1323 - ZEGRZE PŁD.</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zegrze Płd..mp3">1930 - ZEGRZE POŁUDNIOWE</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zegrzyńska.mp3">1441 - ZEGRZYŃSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zegrzyńska.mp3">1371 - ZEGRZYŃSKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zegrzyńska-IMGW.mp3">1423 - ZEGRZYŃSKA-IMGW</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">2464 - ZELWEROWICZA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">2464 - ZELWEROWICZA (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zerzeń.mp3">2191 - ZERZEŃ</option>
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-0399 - ZET MOKOTÓW</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-0300 - ZET MOKOTÓW</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-0299 - ZET PRAGA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-0200 - ZET PRAGA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-0199 - ZET WOLA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-0100 - ZET WOLA</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-0499 - ZET ŻOLIBORZ</option>-->
-<!--<option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">R-0400 - ZET ŻOLIBORZ</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-0399 - ZET MOKOTÓW</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-0300 - ZET MOKOTÓW</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-0299 - ZET PRAGA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-0200 - ZET PRAGA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-0199 - ZET WOLA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-0100 - ZET WOLA</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-0499 - ZET ŻOLIBORZ</option>-->
+<!--<option class="str3" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">R-0400 - ZET ŻOLIBORZ</option>-->
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/ZGK.mp3">3881 - ZGK</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zgoda.mp3">3701 - ZGODA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zgorzała.mp3">4182 - ZGORZAŁA</option>
@@ -3249,8 +3234,8 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zielona.mp3">3174 - ZIELONA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zielona.mp3">2379 - ZIELONA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zielonej Gęsi.mp3">4339 - ZIELONEJ GĘSI</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1921 - ZIELONKA (BZ)</option>
-<option class="str3a" value="https://kmwawa.github.io/zapowiedzi-4/Cisza 1 sekunda.mp3">1919 - ZIELONKA BANKOWA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1921 - ZIELONKA (BZ)</option>
+<option class="str3a" value="https://kmwawa.github.io/kmwaw-zapowiedzi/Cisza 1 sekunda.mp3">1919 - ZIELONKA BANKOWA (BZ)</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zielonki.mp3">6149 - ZIELONKI</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zielonki-Wieś.mp3">6151 - ZIELONKI-WIEŚ</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Zimorodka.mp3">3755 - ZIMORODKA</option>
@@ -3285,26 +3270,10 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Żytnia.mp3">5084 - ŻYTNIA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Żywiecka.mp3">4237 - ŻYWIECKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Żyzna.mp3">5213 - ŻYZNA</option>
-
-
-
-
-
-<!--
-<option class="str3" value="sound4.mp3">3185 - CH STARA PAPIERNIA</option>
-<option class="str3" value="sound4.mp3">1179 - CH TARGÓWEK</option>
-<option class="str3" value="sound4.mp3">3292 - CH URSYNÓW</option>
-zrób tak jak wzór wyżej, pisz bez powtarzania się nazw. oto lista:-->
-
+                            <!-- Add other options here -->
                         </select>
                     </div>
-					
-					
-					
-					
-					
-					
-                    <div class="select-wrapper" style="width: 500px;">
+                   <div class="select-wrapper" style="width: 500px;">
                         <input type="text" id="searchBox2" placeholder="Szukaj zapowiedzi..." oninput="filterSounds('soundSelect2')">
                         <br>Wybrana zapowiedź:<br>
                         <span id="selectedSound2" class="selected-sound str2"></span>
@@ -4190,14 +4159,13 @@ zrób tak jak wzór wyżej, pisz bez powtarzania się nazw. oto lista:-->
 <option class="str4" value="Cisza 2 sekundy.mp3">Cisza 2 sekundy</option>
 <option class="str4" value="Cisza 1 sekunda.mp3">Cisza 1 sekunda</option>
 <option class="str4" value="Cisza 0,5 sekundy.mp3">Cisza 0,5 sekundy</option>
-
+                            <!-- Add other options here -->
                         </select>
                     </div>
                 </div>
             </td>
             <td style="width: 450px;">
-               
-                <a onclick="playPlaylist()" class="str1">Odtwórz listę</a>
+               <a onclick="playPlaylist()" class="str1">Odtwórz listę</a>
                 <a onclick="resetPlaylist()" class="str1">Resetuj</a>
 				<a onclick="undoAdd()" class="str1">Cofnij</a>
                 <audio id="audioPlayer" src="" style="display:none;"></audio>
@@ -4205,7 +4173,6 @@ zrób tak jak wzór wyżej, pisz bez powtarzania się nazw. oto lista:-->
             </td>
         </tr>
     </table>
-
     <script>
         let playlist = [];
 
@@ -4220,20 +4187,35 @@ zrób tak jak wzór wyżej, pisz bez powtarzania się nazw. oto lista:-->
                 const newSoundText = document.createElement('span');
                 newSoundText.textContent = selectedSoundText;
                 newSoundElement.appendChild(newSoundText);
+
+                // Add delete button
+                const deleteButton = document.createElement('button');
+                deleteButton.textContent = 'Usuń';
+                deleteButton.onclick = () => removeSound(newSoundElement, selectedSound);
+                newSoundElement.appendChild(deleteButton);
+
                 newSoundElement.classList.add('playlist-item');
                 playlistElement.appendChild(newSoundElement);
                 checkTextOverflow(newSoundElement);
-				
             }
         }
+
         function undoAdd() {
             if (playlist.length > 0) {
-                playlist.pop(); // Remove the last item from the playlist array
+                playlist.pop();
                 const playlistElement = document.getElementById('playlist');
-                playlistElement.removeChild(playlistElement.lastChild); // Remove the last li element
+                playlistElement.removeChild(playlistElement.lastChild);
             }
         }
-		
+
+        function removeSound(element, sound) {
+            const index = playlist.indexOf(sound);
+            if (index > -1) {
+                playlist.splice(index, 1);
+                element.remove();
+            }
+        }
+
         function playPlaylist() {
             const audioPlayer = document.getElementById('audioPlayer');
             let currentSoundIndex = 0;
@@ -4285,7 +4267,7 @@ zrób tak jak wzór wyżej, pisz bez powtarzania się nazw. oto lista:-->
             }
         }
 
-         function checkOptionTextOverflow() {
+        function checkOptionTextOverflow() {
             const select1Options = document.querySelectorAll('#soundSelect1 option');
             const select2Options = document.querySelectorAll('#soundSelect2 option');
 
@@ -4314,6 +4296,5 @@ zrób tak jak wzór wyżej, pisz bez powtarzania się nazw. oto lista:-->
             checkOptionTextOverflow();
         };
     </script>
-   
 </body>
 </html>
