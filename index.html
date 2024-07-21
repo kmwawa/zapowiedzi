@@ -200,7 +200,7 @@
                         <span id="selectedSound1" class="selected-sound str2"></span>
                         <br><a onclick="addSound('soundSelect1')" class="str1">Dodaj do listy</a>
                         <select id="soundSelect1" size="3075" onchange="selectSound(event, 'soundSelect1')">
-                           <option class="str3" value="1. Praskiego Pułku.mp3">2293 - 1.PRASKIEGO PUŁKU</option>
+                            <option class="str3" value="1. Praskiego Pułku.mp3">2293 - 1.PRASKIEGO PUŁKU</option>
 <option class="str3" value="1 Sierpnia.mp3">4009 - 1 SIERPNIA</option>
 <option class="str3" value="11 Listopada.mp3">6658 - 11 LISTOPADA</option>
 <option class="str3" value="11 Listopada.mp3">1848 - 11 LISTOPADA</option>
@@ -3270,10 +3270,26 @@
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Żytnia.mp3">5084 - ŻYTNIA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Żywiecka.mp3">4237 - ŻYWIECKA</option>
 <option class="str3" value="https://kmwawa.github.io/zapowiedzi-4/Żyzna.mp3">5213 - ŻYZNA</option>
-                            <!-- Add other options here -->
+
+
+
+
+
+<!--
+<option class="str3" value="sound4.mp3">3185 - CH STARA PAPIERNIA</option>
+<option class="str3" value="sound4.mp3">1179 - CH TARGÓWEK</option>
+<option class="str3" value="sound4.mp3">3292 - CH URSYNÓW</option>
+zrób tak jak wzór wyżej, pisz bez powtarzania się nazw. oto lista:-->
+
                         </select>
                     </div>
-                   <div class="select-wrapper" style="width: 500px;">
+					
+					
+					
+					
+					
+					
+                    <div class="select-wrapper" style="width: 500px;">
                         <input type="text" id="searchBox2" placeholder="Szukaj zapowiedzi..." oninput="filterSounds('soundSelect2')">
                         <br>Wybrana zapowiedź:<br>
                         <span id="selectedSound2" class="selected-sound str2"></span>
@@ -4159,20 +4175,20 @@
 <option class="str4" value="Cisza 2 sekundy.mp3">Cisza 2 sekundy</option>
 <option class="str4" value="Cisza 1 sekunda.mp3">Cisza 1 sekunda</option>
 <option class="str4" value="Cisza 0,5 sekundy.mp3">Cisza 0,5 sekundy</option>
-                            <!-- Add other options here -->
                         </select>
                     </div>
                 </div>
             </td>
-            <td style="width: 450px;">
-               <a onclick="playPlaylist()" class="str1">Odtwórz listę</a>
-                <a onclick="resetPlaylist()" class="str1">Resetuj</a>
-				<a onclick="undoAdd()" class="str1">Cofnij</a>
-                <audio id="audioPlayer" src="" style="display:none;"></audio>
-                <ul id="playlist"></ul>
+            <td style="width: 500px;">
+			    <a onclick="playPlaylist()" class="str1">Odtwórz listę</a>
+				<a onclick="resetPlaylist()" class="str1">Wyczyść listę</a>
+                <a onclick="undoAdd()" class="str1">Cofnij dodanie</a>
+                <button onclick="playPlaylist()" class="str1">Ręcznie Odtwórz listę</button>
+                <ol id="playlist"></ol>
             </td>
         </tr>
     </table>
+    <audio id="audioPlayer" controls></audio>
     <script>
         let playlist = [];
 
@@ -4197,14 +4213,18 @@
                 newSoundElement.classList.add('playlist-item');
                 playlistElement.appendChild(newSoundElement);
                 checkTextOverflow(newSoundElement);
+
+                console.log(`Dodano: ${selectedSoundText}`);
             }
         }
 
         function undoAdd() {
             if (playlist.length > 0) {
-                playlist.pop();
+                const removedSound = playlist.pop();
                 const playlistElement = document.getElementById('playlist');
                 playlistElement.removeChild(playlistElement.lastChild);
+
+                console.log(`Cofnięto dodanie: ${removedSound}`);
             }
         }
 
@@ -4213,21 +4233,30 @@
             if (index > -1) {
                 playlist.splice(index, 1);
                 element.remove();
+
+                console.log(`Usunięto: ${sound}`);
             }
         }
 
         function playPlaylist() {
             const audioPlayer = document.getElementById('audioPlayer');
             let currentSoundIndex = 0;
+
             function playNextSound() {
                 if (currentSoundIndex < playlist.length) {
-                    audioPlayer.src = playlist[currentSoundIndex];
-                    audioPlayer.play();
-                    currentSoundIndex++;
+                    const sound = playlist[currentSoundIndex];
+                    audioPlayer.src = sound;
+                    audioPlayer.play().then(() => {
+                        console.log(`Odtwarzanie: ${sound}`);
+                        currentSoundIndex++;
+                    }).catch(error => {
+                        console.error(`Błąd odtwarzania: ${error}`);
+                    });
                 } else {
                     currentSoundIndex = 0;
                 }
             }
+
             audioPlayer.onended = playNextSound;
             playNextSound();
         }
@@ -4236,6 +4265,8 @@
             playlist = [];
             const playlistElement = document.getElementById('playlist');
             playlistElement.innerHTML = '';
+
+            console.log('Lista odtwarzania została wyczyszczona');
         }
 
         function filterSounds(selectId) {
